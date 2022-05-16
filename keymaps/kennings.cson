@@ -1,0 +1,226 @@
+
+
+'atom-text-editor[data-grammar="text md"]':
+  'alt-ctrl-m b': 'kennings:insertItb'  # bold
+  'alt-ctrl-m f 0': 'kennings:insertItf0'  # reference file 0
+  'alt-ctrl-m f 1': 'kennings:insertItf1'  # reference file 1
+  'alt-ctrl-m f 2': 'kennings:insertItf2'  # reference file 2
+  'alt-ctrl-m f 3': 'kennings:insertItf3'  # reference file 3
+  'alt-ctrl-m f 4': 'kennings:insertItf4'  # reference file 4
+  'alt-ctrl-m f 5': 'kennings:insertItf5'  # reference file 5
+  'alt-ctrl-m f 6': 'kennings:insertItf6'  # reference file 6
+  'alt-ctrl-m f 7': 'kennings:insertItf7'  # reference file 7
+  'alt-ctrl-m f 8': 'kennings:insertItf8'  # reference file 8
+  'alt-ctrl-m h': 'kennings:insertIth'  # highlight
+  'alt-ctrl-m i': 'kennings:insertIti'  # italics
+  'alt-ctrl-m o': 'kennings:insertIto'  # obfuscate
+  'alt-ctrl-m p t e': 'kennings:insertItpte'  # pause ears only
+  'alt-ctrl-m p t g': 'kennings:insertItptg'  # pause group
+  'alt-ctrl-m p t l': 'kennings:insertItptl'  # pause local
+  'alt-ctrl-m p t p': 'kennings:insertItptp'  # pause phone
+  'alt-ctrl-m p t r': 'kennings:insertItptr'  # pause radio
+  'alt-ctrl-m p t v': 'kennings:insertItptv'  # pause private
+  'alt-ctrl-m s': 'kennings:insertIts'  # strikeout
+  'alt-ctrl-m t e': 'kennings:insertItte'  # ears only
+  'alt-ctrl-m t g': 'kennings:insertIttg'  # group
+  'alt-ctrl-m t j': 'kennings:insertIttj'  # time jump
+  'alt-ctrl-m t l': 'kennings:insertIttl'  # local
+  'alt-ctrl-m t p': 'kennings:insertIttp'  # phone
+  'alt-ctrl-m t r': 'kennings:insertIttr'  # radio
+  'alt-ctrl-m t v': 'kennings:insertIttv'  # private
+
+'atom-text-editor[data-grammar="source python"]':
+  'alt-ctrl-m d c c': 'kennings:insertItdcc'  # define class class
+  'alt-ctrl-m d c e': 'kennings:insertItdce'  # define class enter
+  'alt-ctrl-m d c f': 'kennings:insertItdcf'  # define class function
+  'alt-ctrl-m d c i': 'kennings:insertItdci'  # define class init
+  'alt-ctrl-m d c x': 'kennings:insertItdcx'  # define class exit
+  'alt-ctrl-m d n f': 'kennings:insertItdnf'  # define normal function
+  'alt-ctrl-m e d': 'kennings:insertIted'  # define empty _dictToRtn_
+  'alt-ctrl-m e l': 'kennings:insertItel'  # define empty _listToRtn_
+  'alt-ctrl-m e s': 'kennings:insertItes'  # define empty _strToRtn_
+  'alt-ctrl-m f 1 b': 'kennings:insertItf1b'  # fold 1 both
+  'alt-ctrl-m f 1 e': 'kennings:insertItf1e'  # fold 1 end
+  'alt-ctrl-m f 1 s': 'kennings:insertItf1s'  # fold 1 start
+  'alt-ctrl-m f 2 b': 'kennings:insertItf2b'  # fold 2 both
+  'alt-ctrl-m f 2 e': 'kennings:insertItf2e'  # fold 2 end
+  'alt-ctrl-m f 2 s': 'kennings:insertItf2s'  # fold 2 start
+  'alt-ctrl-m f 3 b': 'kennings:insertItf3b'  # fold 3 both
+  'alt-ctrl-m f 3 e': 'kennings:insertItf3e'  # fold 3 end
+  'alt-ctrl-m f 3 s': 'kennings:insertItf3s'  # fold 3 start
+  'alt-ctrl-m i e': 'kennings:insertItie'  # insert if elif
+  'alt-ctrl-m i i': 'kennings:insertItii'  # insert if if
+  'alt-ctrl-m i s': 'kennings:insertItis'  # insert if else
+  'alt-ctrl-m m 0 a': 'kennings:insertItm0a'  # mark 0 all
+  'alt-ctrl-m m 0 b': 'kennings:insertItm0b'  # mark 0 both + middle
+  'alt-ctrl-m m 0 e': 'kennings:insertItm0e'  # mark 0 end
+  'alt-ctrl-m m 0 m': 'kennings:insertItm0m'  # mark 0 middle
+  'alt-ctrl-m m 0 s': 'kennings:insertItm0s'  # mark 0 start
+  'alt-ctrl-m m 1 a': 'kennings:insertItm1a'  # mark 1 all
+  'alt-ctrl-m m 1 b': 'kennings:insertItm1b'  # mark 1 both + middle
+  'alt-ctrl-m m 1 e': 'kennings:insertItm1e'  # mark 1 end
+  'alt-ctrl-m m 1 m': 'kennings:insertItm1m'  # mark 1 middle
+  'alt-ctrl-m m 1 s': 'kennings:insertItm1s'  # mark 1 start
+  'alt-ctrl-m m 2 a': 'kennings:insertItm2a'  # mark 2 all
+  'alt-ctrl-m m 2 b': 'kennings:insertItm2b'  # mark 2 both + middle
+  'alt-ctrl-m m 2 e': 'kennings:insertItm2e'  # mark 2 end
+  'alt-ctrl-m m 2 m': 'kennings:insertItm2m'  # mark 2 middle
+  'alt-ctrl-m m 2 s': 'kennings:insertItm2s'  # mark 2 start
+  'alt-ctrl-m m 3 a': 'kennings:insertItm3a'  # mark 3 all
+  'alt-ctrl-m m 3 b': 'kennings:insertItm3b'  # mark 3 both + middle
+  'alt-ctrl-m m 3 e': 'kennings:insertItm3e'  # mark 3 end
+  'alt-ctrl-m m 3 m': 'kennings:insertItm3m'  # mark 3 middle
+  'alt-ctrl-m m 3 s': 'kennings:insertItm3s'  # mark 3 start
+  'alt-ctrl-m m 4 a': 'kennings:insertItm4a'  # mark 4 all
+  'alt-ctrl-m m 4 b': 'kennings:insertItm4b'  # mark 4 both + middle
+  'alt-ctrl-m m 4 e': 'kennings:insertItm4e'  # mark 4 end
+  'alt-ctrl-m m 4 m': 'kennings:insertItm4m'  # mark 4 middle
+  'alt-ctrl-m m 4 s': 'kennings:insertItm4s'  # mark 4 start
+  'alt-ctrl-m m 5 a': 'kennings:insertItm5a'  # mark 5 all
+  'alt-ctrl-m m 5 b': 'kennings:insertItm5b'  # mark 5 both + middle
+  'alt-ctrl-m m 5 e': 'kennings:insertItm5e'  # mark 5 end
+  'alt-ctrl-m m 5 m': 'kennings:insertItm5m'  # mark 5 middle
+  'alt-ctrl-m m 5 s': 'kennings:insertItm5s'  # mark 5 start
+  'alt-ctrl-m m 6 a': 'kennings:insertItm6a'  # mark 6 all
+  'alt-ctrl-m m 6 b': 'kennings:insertItm6b'  # mark 6 both + middle
+  'alt-ctrl-m m 6 e': 'kennings:insertItm6e'  # mark 6 end
+  'alt-ctrl-m m 6 m': 'kennings:insertItm6m'  # mark 6 middle
+  'alt-ctrl-m m 6 s': 'kennings:insertItm6s'  # mark 6 start
+  'alt-ctrl-m m 7 a': 'kennings:insertItm7a'  # mark 7 all
+  'alt-ctrl-m m 7 b': 'kennings:insertItm7b'  # mark 7 both + middle
+  'alt-ctrl-m m 7 e': 'kennings:insertItm7e'  # mark 7 end
+  'alt-ctrl-m m 7 m': 'kennings:insertItm7m'  # mark 7 middle
+  'alt-ctrl-m m 7 s': 'kennings:insertItm7s'  # mark 7 start
+  'alt-ctrl-m m 8 a': 'kennings:insertItm8a'  # mark 8 all
+  'alt-ctrl-m m 8 b': 'kennings:insertItm8b'  # mark 8 both + middle
+  'alt-ctrl-m m 8 e': 'kennings:insertItm8e'  # mark 8 end
+  'alt-ctrl-m m 8 m': 'kennings:insertItm8m'  # mark 8 middle
+  'alt-ctrl-m m 8 s': 'kennings:insertItm8s'  # mark 8 start
+  'alt-ctrl-m m 9 a': 'kennings:insertItm9a'  # mark 9 all
+  'alt-ctrl-m m 9 b': 'kennings:insertItm9b'  # mark 9 both + middle
+  'alt-ctrl-m m 9 e': 'kennings:insertItm9e'  # mark 9 end
+  'alt-ctrl-m m 9 m': 'kennings:insertItm9m'  # mark 9 middle
+  'alt-ctrl-m m 9 s': 'kennings:insertItm9s'  # mark 9 start
+  'alt-ctrl-m p': 'kennings:insertItp'  # print(f"""""")
+  'alt-ctrl-m q': 'kennings:insertItq'  # f""""""
+  'alt-ctrl-m u d': 'kennings:insertItud'  # return _dictToRtn_
+  'alt-ctrl-m u d': 'kennings:insertItud'  # update _dictToRtn_
+  'alt-ctrl-m u l': 'kennings:insertItul'  # return _listToRtn_
+  'alt-ctrl-m u l': 'kennings:insertItul'  # update _listToRtn_
+  'alt-ctrl-m u s': 'kennings:insertItus'  # return _strToRtn_
+  'alt-ctrl-m u s': 'kennings:insertItus'  # update _strToRtn_
+
+
+#
+
+
+  'alt-ctrl-m b': 'kennings:insertItb'  # bold
+  'alt-ctrl-m d c c': 'kennings:insertItdcc'  # define class class
+  'alt-ctrl-m d c e': 'kennings:insertItdce'  # define class enter
+  'alt-ctrl-m d c f': 'kennings:insertItdcf'  # define class function
+  'alt-ctrl-m d c i': 'kennings:insertItdci'  # define class init
+  'alt-ctrl-m d c x': 'kennings:insertItdcx'  # define class exit
+  'alt-ctrl-m d n f': 'kennings:insertItdnf'  # define normal function
+  'alt-ctrl-m e d': 'kennings:insertIted'  # define empty _dictToRtn_
+  'alt-ctrl-m e l': 'kennings:insertItel'  # define empty _listToRtn_
+  'alt-ctrl-m e s': 'kennings:insertItes'  # define empty _strToRtn_
+  'alt-ctrl-m f 0': 'kennings:insertItf0'  # reference file 0
+  'alt-ctrl-m f 1 b': 'kennings:insertItf1b'  # fold 1 both
+  'alt-ctrl-m f 1 e': 'kennings:insertItf1e'  # fold 1 end
+  'alt-ctrl-m f 1 s': 'kennings:insertItf1s'  # fold 1 start
+  'alt-ctrl-m f 1': 'kennings:insertItf1'  # reference file 1
+  'alt-ctrl-m f 2 b': 'kennings:insertItf2b'  # fold 2 both
+  'alt-ctrl-m f 2 e': 'kennings:insertItf2e'  # fold 2 end
+  'alt-ctrl-m f 2 s': 'kennings:insertItf2s'  # fold 2 start
+  'alt-ctrl-m f 2': 'kennings:insertItf2'  # reference file 2
+  'alt-ctrl-m f 3 b': 'kennings:insertItf3b'  # fold 3 both
+  'alt-ctrl-m f 3 e': 'kennings:insertItf3e'  # fold 3 end
+  'alt-ctrl-m f 3 s': 'kennings:insertItf3s'  # fold 3 start
+  'alt-ctrl-m f 3': 'kennings:insertItf3'  # reference file 3
+  'alt-ctrl-m f 4': 'kennings:insertItf4'  # reference file 4
+  'alt-ctrl-m f 5': 'kennings:insertItf5'  # reference file 5
+  'alt-ctrl-m f 6': 'kennings:insertItf6'  # reference file 6
+  'alt-ctrl-m f 7': 'kennings:insertItf7'  # reference file 7
+  'alt-ctrl-m f 8': 'kennings:insertItf8'  # reference file 8
+  'alt-ctrl-m h': 'kennings:insertIth'  # highlight
+  'alt-ctrl-m i e': 'kennings:insertItie'  # insert if elif
+  'alt-ctrl-m i i': 'kennings:insertItii'  # insert if if
+  'alt-ctrl-m i s': 'kennings:insertItis'  # insert if else
+  'alt-ctrl-m i': 'kennings:insertIti'  # italics
+  'alt-ctrl-m m 0 a': 'kennings:insertItm0a'  # mark 0 all
+  'alt-ctrl-m m 0 b': 'kennings:insertItm0b'  # mark 0 both + middle
+  'alt-ctrl-m m 0 e': 'kennings:insertItm0e'  # mark 0 end
+  'alt-ctrl-m m 0 m': 'kennings:insertItm0m'  # mark 0 middle
+  'alt-ctrl-m m 0 s': 'kennings:insertItm0s'  # mark 0 start
+  'alt-ctrl-m m 1 a': 'kennings:insertItm1a'  # mark 1 all
+  'alt-ctrl-m m 1 b': 'kennings:insertItm1b'  # mark 1 both + middle
+  'alt-ctrl-m m 1 e': 'kennings:insertItm1e'  # mark 1 end
+  'alt-ctrl-m m 1 m': 'kennings:insertItm1m'  # mark 1 middle
+  'alt-ctrl-m m 1 s': 'kennings:insertItm1s'  # mark 1 start
+  'alt-ctrl-m m 2 a': 'kennings:insertItm2a'  # mark 2 all
+  'alt-ctrl-m m 2 b': 'kennings:insertItm2b'  # mark 2 both + middle
+  'alt-ctrl-m m 2 e': 'kennings:insertItm2e'  # mark 2 end
+  'alt-ctrl-m m 2 m': 'kennings:insertItm2m'  # mark 2 middle
+  'alt-ctrl-m m 2 s': 'kennings:insertItm2s'  # mark 2 start
+  'alt-ctrl-m m 3 a': 'kennings:insertItm3a'  # mark 3 all
+  'alt-ctrl-m m 3 b': 'kennings:insertItm3b'  # mark 3 both + middle
+  'alt-ctrl-m m 3 e': 'kennings:insertItm3e'  # mark 3 end
+  'alt-ctrl-m m 3 m': 'kennings:insertItm3m'  # mark 3 middle
+  'alt-ctrl-m m 3 s': 'kennings:insertItm3s'  # mark 3 start
+  'alt-ctrl-m m 4 a': 'kennings:insertItm4a'  # mark 4 all
+  'alt-ctrl-m m 4 b': 'kennings:insertItm4b'  # mark 4 both + middle
+  'alt-ctrl-m m 4 e': 'kennings:insertItm4e'  # mark 4 end
+  'alt-ctrl-m m 4 m': 'kennings:insertItm4m'  # mark 4 middle
+  'alt-ctrl-m m 4 s': 'kennings:insertItm4s'  # mark 4 start
+  'alt-ctrl-m m 5 a': 'kennings:insertItm5a'  # mark 5 all
+  'alt-ctrl-m m 5 b': 'kennings:insertItm5b'  # mark 5 both + middle
+  'alt-ctrl-m m 5 e': 'kennings:insertItm5e'  # mark 5 end
+  'alt-ctrl-m m 5 m': 'kennings:insertItm5m'  # mark 5 middle
+  'alt-ctrl-m m 5 s': 'kennings:insertItm5s'  # mark 5 start
+  'alt-ctrl-m m 6 a': 'kennings:insertItm6a'  # mark 6 all
+  'alt-ctrl-m m 6 b': 'kennings:insertItm6b'  # mark 6 both + middle
+  'alt-ctrl-m m 6 e': 'kennings:insertItm6e'  # mark 6 end
+  'alt-ctrl-m m 6 m': 'kennings:insertItm6m'  # mark 6 middle
+  'alt-ctrl-m m 6 s': 'kennings:insertItm6s'  # mark 6 start
+  'alt-ctrl-m m 7 a': 'kennings:insertItm7a'  # mark 7 all
+  'alt-ctrl-m m 7 b': 'kennings:insertItm7b'  # mark 7 both + middle
+  'alt-ctrl-m m 7 e': 'kennings:insertItm7e'  # mark 7 end
+  'alt-ctrl-m m 7 m': 'kennings:insertItm7m'  # mark 7 middle
+  'alt-ctrl-m m 7 s': 'kennings:insertItm7s'  # mark 7 start
+  'alt-ctrl-m m 8 a': 'kennings:insertItm8a'  # mark 8 all
+  'alt-ctrl-m m 8 b': 'kennings:insertItm8b'  # mark 8 both + middle
+  'alt-ctrl-m m 8 e': 'kennings:insertItm8e'  # mark 8 end
+  'alt-ctrl-m m 8 m': 'kennings:insertItm8m'  # mark 8 middle
+  'alt-ctrl-m m 8 s': 'kennings:insertItm8s'  # mark 8 start
+  'alt-ctrl-m m 9 a': 'kennings:insertItm9a'  # mark 9 all
+  'alt-ctrl-m m 9 b': 'kennings:insertItm9b'  # mark 9 both + middle
+  'alt-ctrl-m m 9 e': 'kennings:insertItm9e'  # mark 9 end
+  'alt-ctrl-m m 9 m': 'kennings:insertItm9m'  # mark 9 middle
+  'alt-ctrl-m m 9 s': 'kennings:insertItm9s'  # mark 9 start
+  'alt-ctrl-m o': 'kennings:insertIto'  # obfuscate
+  'alt-ctrl-m p t e': 'kennings:insertItpte'  # pause ears only
+  'alt-ctrl-m p t g': 'kennings:insertItptg'  # pause group
+  'alt-ctrl-m p t l': 'kennings:insertItptl'  # pause local
+  'alt-ctrl-m p t p': 'kennings:insertItptp'  # pause phone
+  'alt-ctrl-m p t r': 'kennings:insertItptr'  # pause radio
+  'alt-ctrl-m p t v': 'kennings:insertItptv'  # pause private
+  'alt-ctrl-m p': 'kennings:insertItp'  # print(f"""""")
+  'alt-ctrl-m q': 'kennings:insertItq'  # f""""""
+  'alt-ctrl-m s': 'kennings:insertIts'  # strikeout
+  'alt-ctrl-m t e': 'kennings:insertItte'  # ears only
+  'alt-ctrl-m t g': 'kennings:insertIttg'  # group
+  'alt-ctrl-m t j': 'kennings:insertIttj'  # time jump
+  'alt-ctrl-m t l': 'kennings:insertIttl'  # local
+  'alt-ctrl-m t p': 'kennings:insertIttp'  # phone
+  'alt-ctrl-m t r': 'kennings:insertIttr'  # radio
+  'alt-ctrl-m t v': 'kennings:insertIttv'  # private
+  'alt-ctrl-m u d': 'kennings:insertItud'  # return _dictToRtn_
+  'alt-ctrl-m u d': 'kennings:insertItud'  # update _dictToRtn_
+  'alt-ctrl-m u l': 'kennings:insertItul'  # return _listToRtn_
+  'alt-ctrl-m u l': 'kennings:insertItul'  # update _listToRtn_
+  'alt-ctrl-m u s': 'kennings:insertItus'  # return _strToRtn_
+  'alt-ctrl-m u s': 'kennings:insertItus'  # update _strToRtn_
+
+
+
+#

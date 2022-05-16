@@ -1,0 +1,1207 @@
+
+Project: "kenningsManager"
+
+"*":
+  LinkifyFixedText: "y"
+  LowerCaseFixedText: "y"
+  UpperCaseSelectedText: "n"
+  Templates: {
+    "alt-ctrl-m°c": {
+        Comment: "Generic comment starter"
+        InsertName: "Hash Comment"
+        StringToInsert: "\# * "
+    }
+  }
+
+"source.python":
+  LinkifyFixedText: "y"
+  LowerCaseFixedText: "y"
+  UpperCaseSelectedText: "n"
+  Templates: {
+    "alt-ctrl-c°d°c": {
+        Comment: "Character DBLQT from CF_V"
+        InsertName: "Character Double quote"
+        StringToInsert: "{V.CF_V.DBLQT}"
+    }
+    "alt-ctrl-c°n°c": {
+        Comment: "Character NEWLINE from CF_V"
+        InsertName: "Python else"
+        StringToInsert: "{V.CF_V.NEWLINE}"
+    }
+    "alt-ctrl-c°n°l": {
+        Comment: "Character newline"
+        InsertName: "New Line"
+        StringToInsert: "%N%"
+    }
+    "alt-ctrl-c°q°d": {
+        Comment: "Character quote double"
+        InsertName: "Character Double quote"
+        StringToInsert: "%Q%"
+    }
+    "alt-ctrl-d°c°c": {
+        Comment: "Define class class"
+        InsertName: "Python class template"
+        StringToInsert: "\# * %R%°\#*≈150¨%N%\# * Start of %ST%%N%\# * %R%°\#*≈150¨%N%class %ST%():%N%%T%\# fold here %R%°⟱1≈100¨%N%%T%def __init__(self, __PARMS__)%N%%T%%T%%C%pass%N%%N%%T%\# fold here %R%°⟰1≈100¨%N%\# * %R%°\#*≈150¨%N%\# * End of %ST%%N%\# * %R%°\#*≈150¨%N%"
+    }
+    "alt-ctrl-d°c°f": {
+        Comment: "Define class function"
+        InsertName: "Python class function template"
+        StringToInsert: "\# * %R%°\#*≈150¨%N%\# * Start of %ST%%N%\# * %R%°\#*≈150¨%N%def %ST%(self, __PARMS__):%N%%T%\# fold here %R%°⟱2≈150¨%N%%T%%C%pass%N%%T%\# fold here %R%°⟰2≈150¨%N%\# * %R%°\#*≈150¨%N%\# * End of %ST%%N%\# * %R%°\#*≈150¨%N%"
+    }
+    "alt-ctrl-d°i°e": {
+        Comment: "Define if else"
+        InsertName: "Python else"
+        StringToInsert: "{'is': 'else:%N%%T%pass'}"
+    }
+    "alt-ctrl-d°i°i": {
+        Comment: "Define if if"
+        InsertName: "Python if"
+        StringToInsert: "if (%N%%T%%T%(%ST%%C%)%N%):%N%%T%pass"
+    }
+    "alt-ctrl-d°n°f": {
+        Comment: "Define normal function"
+        InsertName: "Python function template"
+        StringToInsert: "\# * %R%°\#*≈150¨%N%\# * Start of %ST%%N%\# * %R%°\#*≈150¨%N%def %ST%(__PARMS__):%N%%T%\# fold here %R%°⟱1≈150¨%N%%T%%C%pass%N%%T%\# fold here %R%°⟰1≈150¨%N%\# * %R%°\#*≈150¨%N%\# * End of %ST%%N%\# * %R%°\#*≈150¨%N%%N%"
+    }
+    "alt-ctrl-f°1°b": {
+        Comment: "Atom custom folds fold 1 both"
+        InsertName: "Python fold 1 both"
+        StringToInsert: "\# fold here %R%°⟱1≈150¨%N%%ST%%N%\# fold here %R%°⟰1≈150¨"
+    }
+    "alt-ctrl-f°1°e": {
+        Comment: "Atom custom folds fold 1 end"
+        InsertName: "Python fold 1 end"
+        StringToInsert: "\# fold here %R%°⟰1≈150¨"
+    }
+    "alt-ctrl-f°1°s": {
+        Comment: "Atom custom folds fold 1 start"
+        InsertName: "Python fold 1 start"
+        StringToInsert: "\# fold here %R%°⟱1≈150¨"
+    }
+    "alt-ctrl-f°2°b": {
+        Comment: "Atom custom folds fold 2 both"
+        InsertName: "Python fold 2 both"
+        StringToInsert: "\# fold here %R%°⟱2≈150¨%N%%ST%%N%\# fold here %R%°⟰2≈150¨"
+    }
+    "alt-ctrl-f°2°e": {
+        Comment: "Atom custom folds fold 2 end"
+        InsertName: "Python fold 2 end"
+        StringToInsert: "\# fold here %R%°⟰2≈150¨"
+    }
+    "alt-ctrl-f°2°s": {
+        Comment: "Atom custom folds fold 2 start"
+        InsertName: "Python fold 2 start"
+        StringToInsert: "\# fold here %R%°⟱2≈150¨"
+    }
+    "alt-ctrl-f°3°b": {
+        Comment: "Atom custom folds fold 3 both"
+        InsertName: "Python fold 3 both"
+        StringToInsert: "\# fold here %R%°⟱3≈150¨%N%%ST%%N%\# fold here %R%°⟰3≈150¨"
+    }
+    "alt-ctrl-f°3°e": {
+        Comment: "Atom custom folds fold 3 end"
+        InsertName: "Python fold 3 end"
+        StringToInsert: "\# fold here %R%°⟰3≈150¨"
+    }
+    "alt-ctrl-f°3°s": {
+        Comment: "Atom custom folds fold 3 start"
+        InsertName: "Python fold 3 start"
+        StringToInsert: "\# fold here %R%°⟱3≈150¨"
+    }
+    "alt-ctrl-m2°s": {
+        Comment: "Mark 2 start (down arrows)"
+        InsertName: "Mark 2 start"
+        StringToInsert: "\#%R%° 2⟱≈80¨"
+    }
+    "alt-ctrl-m3°s": {
+        Comment: "Mark 3 start (down arrows)"
+        InsertName: "Mark 3 start"
+        StringToInsert: "\#%R%° 3⟱≈80¨"
+    }
+    "alt-ctrl-m4°s": {
+        Comment: "Mark 4 start (down arrows)"
+        InsertName: "Mark 4 start"
+        StringToInsert: "\#%R%° 4⟱≈80¨"
+    }
+    "alt-ctrl-m5°s": {
+        Comment: "Mark 5 start (down arrows)"
+        InsertName: "Mark 5 start"
+        StringToInsert: "\#%R%° 5⟱≈80¨"
+    }
+    "alt-ctrl-m6°s": {
+        Comment: "Mark 6 start (down arrows)"
+        InsertName: "Mark 6 start"
+        StringToInsert: "\#%R%° 6⟱≈80¨"
+    }
+    "alt-ctrl-m7°s": {
+        Comment: "Mark 7 start (down arrows)"
+        InsertName: "Mark 7 start"
+        StringToInsert: "\#%R%° 7⟱≈80¨"
+    }
+    "alt-ctrl-m8°s": {
+        Comment: "Mark 8 start (down arrows)"
+        InsertName: "Mark 8 start"
+        StringToInsert: "\#%R%° 8⟱≈80¨"
+    }
+    "alt-ctrl-m9°s": {
+        Comment: "Mark 9 start (down arrows)"
+        InsertName: "Mark 9 start"
+        StringToInsert: "\#%R%° 9⟱≈80¨"
+    }
+    "alt-ctrl-m°0°a": {
+        Comment: "Mark 0 all, up and down order lines"
+        InsertName: "Mark 0 all"
+        StringToInsert: "\#%R%° ⟰0≈80¨%N%\#%R%° 0⟱≈80¨"
+    }
+    "alt-ctrl-m°0°b": {
+        Comment: "Mark 0 both, down and up order lines"
+        InsertName: "Mark 0 both"
+        StringToInsert: "\#%R%° 0⟱≈80¨%N%%ST%\#%R%° ⟰0≈80¨"
+    }
+    "alt-ctrl-m°0°e": {
+        Comment: "Mark 1 end (up arrows)"
+        InsertName: "Mark 1 end"
+        StringToInsert: "\#%R%° ⟰1≈80¨"
+    }
+    "alt-ctrl-m°0°m": {
+        Comment: "Mark 0 middle, up and down together"
+        InsertName: "Mark 0 middle"
+        StringToInsert: "\#%R%° ⟰0⟱≈56¨"
+    }
+    "alt-ctrl-m°0°s": {
+        Comment: "Mark 0 start (down arrows)"
+        InsertName: "Mark 0 start"
+        StringToInsert: "\#%R%° 0⟱≈80¨"
+    }
+    "alt-ctrl-m°0°x": {
+        Comment: "Mark 0 extended, down, middle, and up lines"
+        InsertName: "Mark 0 extended"
+        StringToInsert: "\#%R%° 0⟱≈80¨%N%%ST%\#%R%° ⟰0⟱≈56¨%N%\#%R%° ⟰0≈80¨"
+    }
+    "alt-ctrl-m°1°a": {
+        Comment: "Mark 0 all, up and down order lines"
+        InsertName: "Mark 1 all"
+        StringToInsert: "\#%R%° ⟰1≈80¨%N%\#%R%° 1⟱≈80¨"
+    }
+    "alt-ctrl-m°1°b": {
+        Comment: "Mark 1 both, down and up order lines"
+        InsertName: "Mark 1 both"
+        StringToInsert: "\#%R%° 1⟱≈80¨%N%%ST%\#%R%° ⟰1≈80¨"
+    }
+    "alt-ctrl-m°1°m": {
+        Comment: "Mark 1 middle, up and down together"
+        InsertName: "Mark 1 middle"
+        StringToInsert: "\#%R%° ⟰1⟱≈56¨"
+    }
+    "alt-ctrl-m°1°s": {
+        Comment: "Mark 1 start (down arrows)"
+        InsertName: "Mark 1 start"
+        StringToInsert: "\#%R%° 1⟱≈80¨"
+    }
+    "alt-ctrl-m°1°x": {
+        Comment: "Mark 1 extended, down, middle, and up lines"
+        InsertName: "Mark 1 extended"
+        StringToInsert: "\#%R%° 1⟱≈80¨%N%%ST%\#%R%° ⟰1⟱≈56¨%N%\#%R%° ⟰1≈80¨"
+    }
+    "alt-ctrl-m°2°a": {
+        Comment: "Mark 2 all, up and down order lines"
+        InsertName: "Mark20 all"
+        StringToInsert: "\#%R%° ⟰2≈80¨%N%\#%R%° 2⟱≈80¨"
+    }
+    "alt-ctrl-m°2°b": {
+        Comment: "Mark 2 both, down and up order lines"
+        InsertName: "Mark 2 both"
+        StringToInsert: "\#%R%° 2⟱≈80¨%N%%ST%\#%R%° ⟰2≈80¨"
+    }
+    "alt-ctrl-m°2°e": {
+        Comment: "Mark 2 end (up arrows)"
+        InsertName: "Mark 2 end"
+        StringToInsert: "\#%R%° ⟰2≈80¨"
+    }
+    "alt-ctrl-m°2°m": {
+        Comment: "Mark 2 middle, up and down together"
+        InsertName: "Mark 2 middle"
+        StringToInsert: "\#%R%° ⟰2⟱≈56¨"
+    }
+    "alt-ctrl-m°2°x": {
+        Comment: "Mark 2 extended, down, middle, and up lines"
+        InsertName: "Mark 2 extended"
+        StringToInsert: "\#%R%° 2⟱≈80¨%N%%ST%\#%R%° ⟰2⟱≈56¨%N%\#%R%° ⟰2≈80¨"
+    }
+    "alt-ctrl-m°3°a": {
+        Comment: "Mark 3 all, up and down order lines"
+        InsertName: "Mark30 all"
+        StringToInsert: "\#%R%° ⟰3≈80¨%N%\#%R%° 3⟱≈80¨"
+    }
+    "alt-ctrl-m°3°b": {
+        Comment: "Mark 3 both, down and up order lines"
+        InsertName: "Mark 3 both"
+        StringToInsert: "\#%R%° 3⟱≈80¨%N%%ST%\#%R%° ⟰3≈80¨"
+    }
+    "alt-ctrl-m°3°e": {
+        Comment: "Mark 3 end (up arrows)"
+        InsertName: "Mark 3 end"
+        StringToInsert: "\#%R%° ⟰3≈80¨"
+    }
+    "alt-ctrl-m°3°m": {
+        Comment: "Mark 3 middle, up and down together"
+        InsertName: "Mark 3 middle"
+        StringToInsert: "\#%R%° ⟰3⟱≈56¨"
+    }
+    "alt-ctrl-m°3°x": {
+        Comment: "Mark 3 extended, down, middle, and up lines"
+        InsertName: "Mark 3 extended"
+        StringToInsert: "\#%R%° 3⟱≈80¨%N%%ST%\#%R%° ⟰3⟱≈56¨%N%\#%R%° ⟰3≈80¨"
+    }
+    "alt-ctrl-m°4°a": {
+        Comment: "Mark 4 all, up and down order lines"
+        InsertName: "Mark40 all"
+        StringToInsert: "\#%R%° ⟰4≈80¨%N%\#%R%° 4⟱≈80¨"
+    }
+    "alt-ctrl-m°4°b": {
+        Comment: "Mark 4 both, down and up order lines"
+        InsertName: "Mark 4 both"
+        StringToInsert: "\#%R%° 4⟱≈80¨%N%%ST%\#%R%° ⟰4≈80¨"
+    }
+    "alt-ctrl-m°4°e": {
+        Comment: "Mark 4 end (up arrows)"
+        InsertName: "Mark 4 end"
+        StringToInsert: "\#%R%° ⟰4≈80¨"
+    }
+    "alt-ctrl-m°4°m": {
+        Comment: "Mark 4 middle, up and down together"
+        InsertName: "Mark 4 middle"
+        StringToInsert: "\#%R%° ⟰4⟱≈56¨"
+    }
+    "alt-ctrl-m°4°x": {
+        Comment: "Mark 4 extended, down, middle, and up lines"
+        InsertName: "Mark 4 extended"
+        StringToInsert: "\#%R%° 4⟱≈80¨%N%%ST%\#%R%° ⟰4⟱≈56¨%N%\#%R%° ⟰4≈80¨"
+    }
+    "alt-ctrl-m°5°a": {
+        Comment: "Mark 5 all, up and down order lines"
+        InsertName: "Mark50 all"
+        StringToInsert: "\#%R%° ⟰5≈80¨%N%\#%R%° 5⟱≈80¨"
+    }
+    "alt-ctrl-m°5°b": {
+        Comment: "Mark 5 both, down and up order lines"
+        InsertName: "Mark 5 both"
+        StringToInsert: "\#%R%° 5⟱≈80¨%N%%ST%\#%R%° ⟰5≈80¨"
+    }
+    "alt-ctrl-m°5°e": {
+        Comment: "Mark 5 end (up arrows)"
+        InsertName: "Mark 5 end"
+        StringToInsert: "\#%R%° ⟰5≈80¨"
+    }
+    "alt-ctrl-m°5°m": {
+        Comment: "Mark 5 middle, up and down together"
+        InsertName: "Mark 5 middle"
+        StringToInsert: "\#%R%° ⟰5⟱≈56¨"
+    }
+    "alt-ctrl-m°5°x": {
+        Comment: "Mark 5 extended, down, middle, and up lines"
+        InsertName: "Mark 5 extended"
+        StringToInsert: "\#%R%° 5⟱≈80¨%N%%ST%\#%R%° ⟰5⟱≈56¨%N%\#%R%° ⟰5≈80¨"
+    }
+    "alt-ctrl-m°6°a": {
+        Comment: "Mark 6 all, up and down order lines"
+        InsertName: "Mark60 all"
+        StringToInsert: "\#%R%° ⟰6≈80¨%N%\#%R%° 6⟱≈80¨"
+    }
+    "alt-ctrl-m°6°b": {
+        Comment: "Mark 6 both, down and up order lines"
+        InsertName: "Mark 6 both"
+        StringToInsert: "\#%R%° 6⟱≈80¨%N%%ST%\#%R%° ⟰6≈80¨"
+    }
+    "alt-ctrl-m°6°e": {
+        Comment: "Mark 6 end (up arrows)"
+        InsertName: "Mark 6 end"
+        StringToInsert: "\#%R%° ⟰6≈80¨"
+    }
+    "alt-ctrl-m°6°m": {
+        Comment: "Mark 6 middle, up and down together"
+        InsertName: "Mark 6 middle"
+        StringToInsert: "\#%R%° ⟰6⟱≈56¨"
+    }
+    "alt-ctrl-m°6°x": {
+        Comment: "Mark 6 extended, down, middle, and up lines"
+        InsertName: "Mark 6 extended"
+        StringToInsert: "\#%R%° 6⟱≈80¨%N%%ST%\#%R%° ⟰6⟱≈56¨%N%\#%R%° ⟰6≈80¨"
+    }
+    "alt-ctrl-m°7°a": {
+        Comment: "Mark 7 all, up and down order lines"
+        InsertName: "Mark70 all"
+        StringToInsert: "\#%R%° ⟰7≈80¨%N%\#%R%° 7⟱≈80¨"
+    }
+    "alt-ctrl-m°7°b": {
+        Comment: "Mark 7 both, down and up order lines"
+        InsertName: "Mark 7 both"
+        StringToInsert: "\#%R%° 7⟱≈80¨%N%%ST%\#%R%° ⟰7≈80¨"
+    }
+    "alt-ctrl-m°7°e": {
+        Comment: "Mark 7 end (up arrows)"
+        InsertName: "Mark 7 end"
+        StringToInsert: "\#%R%° ⟰7≈80¨"
+    }
+    "alt-ctrl-m°7°m": {
+        Comment: "Mark 7 middle, up and down together"
+        InsertName: "Mark 7 middle"
+        StringToInsert: "\#%R%° ⟰7⟱≈56¨"
+    }
+    "alt-ctrl-m°7°x": {
+        Comment: "Mark 7 extended, down, middle, and up lines"
+        InsertName: "Mark 7 extended"
+        StringToInsert: "\#%R%° 7⟱≈80¨%N%%ST%\#%R%° ⟰7⟱≈56¨%N%\#%R%° ⟰7≈80¨"
+    }
+    "alt-ctrl-m°8°a": {
+        Comment: "Mark 8 all, up and down order lines"
+        InsertName: "Mark80 all"
+        StringToInsert: "\#%R%° ⟰8≈80¨%N%\#%R%° 8⟱≈80¨"
+    }
+    "alt-ctrl-m°8°b": {
+        Comment: "Mark 8 both, down and up order lines"
+        InsertName: "Mark 8 both"
+        StringToInsert: "\#%R%° 8⟱≈80¨%N%%ST%\#%R%° ⟰8≈80¨"
+    }
+    "alt-ctrl-m°8°e": {
+        Comment: "Mark 8 end (up arrows)"
+        InsertName: "Mark 8 end"
+        StringToInsert: "\#%R%° ⟰8≈80¨"
+    }
+    "alt-ctrl-m°8°m": {
+        Comment: "Mark 8 middle, up and down together"
+        InsertName: "Mark 8 middle"
+        StringToInsert: "\#%R%° ⟰8⟱≈56¨"
+    }
+    "alt-ctrl-m°8°x": {
+        Comment: "Mark 8 extended, down, middle, and up lines"
+        InsertName: "Mark 8 extended"
+        StringToInsert: "\#%R%° 8⟱≈80¨%N%%ST%\#%R%° ⟰8⟱≈56¨%N%\#%R%° ⟰8≈80¨"
+    }
+    "alt-ctrl-m°9°a": {
+        Comment: "Mark 9 all, up and down order lines"
+        InsertName: "Mark90 all"
+        StringToInsert: "\#%R%° ⟰9≈80¨%N%\#%R%° 9⟱≈80¨"
+    }
+    "alt-ctrl-m°9°b": {
+        Comment: "Mark 9 both, down and up order lines"
+        InsertName: "Mark 9 both"
+        StringToInsert: "\#%R%° 9⟱≈80¨%N%%ST%\#%R%° ⟰9≈80¨"
+    }
+    "alt-ctrl-m°9°e": {
+        Comment: "Mark 9 end (up arrows)"
+        InsertName: "Mark 9 end"
+        StringToInsert: "\#%R%° ⟰9≈80¨"
+    }
+    "alt-ctrl-m°9°m": {
+        Comment: "Mark 9 middle, up and down together"
+        InsertName: "Mark 9 middle"
+        StringToInsert: "\#%R%° ⟰9⟱≈56¨"
+    }
+    "alt-ctrl-m°9°x": {
+        Comment: "Mark 9 extended, down, middle, and up lines"
+        InsertName: "Mark 9 extended"
+        StringToInsert: "\#%R%° 9⟱≈80¨%N%%ST%\#%R%° ⟰9⟱≈56¨%N%\#%R%° ⟰9≈80¨"
+    }
+    "alt-ctrl-m°c°b": {
+        Comment: "Comment block"
+        InsertName: "Python comment block"
+        StringToInsert: "\# * %R%°\#*≈150¨%N%\# * Start of __NAME__%N%\# * %R%°\#*≈150¨%N%%ST%\# * %R%°\#*≈150¨%N%\# * End of __NAME__%N%\# * %R%°\#*≈150¨%N%"
+    }
+    "alt-ctrl-m°c°c": {
+        Comment: "Generic comment starter"
+        InsertName: "Hash Comment"
+        StringToInsert: "\# * "
+    }
+    "alt-ctrl-m°c°t": {
+        Comment: "Comment block, tall edition"
+        InsertName: "Tall comment block"
+        StringToInsert: "\# *****%N%\# R%°*≈10¨%N%\# R%°*≈20¨%N%\# R%°*≈40¨\# * %R%°\#*≈150¨%N%\# * Start of __NAME__%N%\# * %R%°\#*≈150¨%N%%ST%\# * %R%°\#*≈150¨%N%\# * End of __NAME__%N%\# * %R%°\#*≈150¨%N%\# *****%N%\# R%°*≈10¨%N%\# R%°*≈20¨%N%\# R%°*≈40¨%N%"
+    }
+    "alt-ctrl-m°i°l": {
+        Comment: "Mark info line"
+        InsertName: "Mark Info Line"
+        StringToInsert: "\# *** INFO *** %R%°%⟱_≈56¨"
+    }
+    "alt-ctrl-m°n°d": {
+        Comment: "Mark not diagnostic comment line"
+        InsertName: "Not Diagnostic"
+        StringToInsert: "\# *** NOT DIAGNOSTIC ***  %R%°%⟱_≈56¨"
+    }
+    "alt-ctrl-m°n°e": {
+        Comment: "Mark nothing end, up arrows."
+        InsertName: "Mark nothing end"
+        StringToInsert: "\# %R%°⟰_≈56¨"
+    }
+    "alt-ctrl-m°n°m": {
+        Comment: "Mark nothing middle, up and down arrows"
+        InsertName: "Mark Nothing Middle"
+        StringToInsert: "\# %R%°⟰⟱≈56¨"
+    }
+    "alt-ctrl-m°n°s": {
+        Comment: "Mark nothing start, down arrows"
+        InsertName: "Mark Not Diagnostic"
+        StringToInsert: "\# %R%°⟱_≈56¨"
+    }
+    "alt-ctrl-p°e°d": {
+        Comment: "Phrase empty _dictToRtn_"
+        InsertName: "Empty _dictToRtn_"
+        StringToInsert: "_dictToRtn_ = {}%N%"
+    }
+    "alt-ctrl-p°e°l": {
+        Comment: "Phrase empty _listToRtn_"
+        InsertName: "Empty _listToRtn_"
+        StringToInsert: "_listToRtn_ = []%N%"
+    }
+    "alt-ctrl-p°e°p": {
+        Comment: "Phrase empty print"
+        InsertName: "Empty _strToRtn_"
+        StringToInsert: "print(f%Q%%Q%%Q%%C%%Q%%Q%%Q%)"
+    }
+    "alt-ctrl-p°e°q": {
+        Comment: "Phrase empty f-quotes"
+        InsertName: "Empty F-Quote"
+        StringToInsert: "f%Q%%Q%%Q%%C%%Q%%Q%%Q%"
+    }
+    "alt-ctrl-p°e°s": {
+        Comment: "Phrase empty _strToRtn_"
+        InsertName: "Empty _strToRtn_"
+        StringToInsert: "_strToRtn_ = %Q%%Q%%N%"
+    }
+    "alt-ctrl-p°e°t": {
+        Comment: "Empty _tupToRtn_"
+        InsertName: "Empty _tupToRtn_"
+        StringToInsert: "_tupToRtn_ = ()%N%"
+    }
+    "alt-ctrl-p°r°d": {
+        Comment: "Mark nothing start, down arrows"
+        InsertName: "Mark Not Diagnostic"
+        StringToInsert: "\# %R%°⟱_≈56¨"
+    }
+    "alt-ctrl-p°r°l": {
+        Comment: "Phrase return _listToRtn_"
+        InsertName: "Return _listToRtn_"
+        StringToInsert: "return _listToRtn_%N%"
+    }
+    "alt-ctrl-p°r°s": {
+        Comment: "Empty _strToRtn_"
+        InsertName: "Empty _strToRtn_"
+        StringToInsert: "return _strToRtn_"
+    }
+    "alt-ctrl-p°r°t": {
+        Comment: "Empty _tupToRtn_"
+        InsertName: "Empty _tupToRtn_"
+        StringToInsert: "return _tupToRtn_"
+    }
+  }
+
+"source.shell":
+  LinkifyFixedText: "y"
+  LowerCaseFixedText: "y"
+  UpperCaseSelectedText: "n"
+  Templates: {
+    "alt-ctrl-c°n°l": {
+        Comment: "Character newline"
+        InsertName: "New Line"
+        StringToInsert: "%N%"
+    }
+    "alt-ctrl-c°q°d": {
+        Comment: "Character quote double"
+        InsertName: "Character Double quote"
+        StringToInsert: "%Q%"
+    }
+    "alt-ctrl-d°c°c": {
+        Comment: "Define class class"
+        InsertName: "Python class template"
+        StringToInsert: "\# * %R%°\#*≈150¨%N%\# * Start of %ST%%N%\# * %R%°\#*≈150¨%N%class %ST%():%N%%T%\# fold here %R%°⟱1≈100¨%N%\# * %R%°\#*≈150¨%N%\# * Start of %ST%%N%\# * %R%°\#*≈150¨%N%def __init__(self, __PARMS__):%N%%T%\# fold here %R%°⟱2≈150¨%N%%T%%C%pass%N%%T%\# fold here %R%°⟰2≈150¨%N%\# * %R%°\#*≈150¨%N%\# * End of %ST%%N%\# * %R%°\#*≈150¨%N%%N%%T%\# fold here %R%°⟰1≈100¨%N%\# * %R%°\#*≈150¨%N%\# * End of %ST%%N%\# * %R%°\#*≈150¨%N%"
+    }
+    "alt-ctrl-d°c°e": {
+        Comment: "Define class __enter__"
+        InsertName: "Python class __enter__ template"
+        StringToInsert: "\# * %R%°\#*≈150¨%N%\# * Start of %ST%%N%\# * %R%°\#*≈150¨%N%def __enter__(self, __PARMS__):%N%%T%\# fold here %R%°⟱2≈150¨%N%%T%%C%pass%N%%T%\# fold here %R%°⟰2≈150¨%N%\# * %R%°\#*≈150¨%N%\# * End of %ST%%N%\# * %R%°\#*≈150¨%N%"
+    }
+    "alt-ctrl-d°c°f": {
+        Comment: "Define class function"
+        InsertName: "Python class function template"
+        StringToInsert: "\# * %R%°\#*≈150¨%N%\# * Start of %ST%%N%\# * %R%°\#*≈150¨%N%def %ST%(self, __PARMS__):%N%%T%\# fold here %R%°⟱2≈150¨%N%%T%%C%pass%N%%T%\# fold here %R%°⟰2≈150¨%N%\# * %R%°\#*≈150¨%N%\# * End of %ST%%N%\# * %R%°\#*≈150¨%N%"
+    }
+    "alt-ctrl-d°c°x": {
+        Comment: "Define class __exit__"
+        InsertName: "Python class __exit__ template"
+        StringToInsert: "\# * %R%°\#*≈150¨%N%\# * Start of %ST%%N%\# * %R%°\#*≈150¨%N%def __exit__(self, *args_, **KWArgs_):%N%%T%\# fold here %R%°⟱2≈150¨%N%%T%%C%pass%N%%T%\# fold here %R%°⟰2≈150¨%N%\# * %R%°\#*≈150¨%N%\# * End of %ST%%N%\# * %R%°\#*≈150¨%N%"
+    }
+    "alt-ctrl-d°i°e": {
+        Comment: "Define if else"
+        InsertName: "Python else"
+        StringToInsert: "{'is': 'else:%N%%T%pass'}"
+    }
+    "alt-ctrl-d°i°i": {
+        Comment: "Define if if"
+        InsertName: "Python if"
+        StringToInsert: "if (%N%%T%%T%(%ST%%C%)%N%):%N%%T%pass"
+    }
+    "alt-ctrl-d°n°f": {
+        Comment: "Define normal function"
+        InsertName: "Python function template"
+        StringToInsert: "\# * %R%°\#*≈150¨%N%\# * Start of %ST%%N%\# * %R%°\#*≈150¨%N%def %ST%(__PARMS__):%N%%T%\# fold here %R%°⟱1≈150¨%N%%T%%C%pass%N%%T%\# fold here %R%°⟰1≈150¨%N%\# * %R%°\#*≈150¨%N%\# * End of %ST%%N%\# * %R%°\#*≈150¨%N%%N%"
+    }
+    "alt-ctrl-f°1°b": {
+        Comment: "Atom custom folds fold 1 both"
+        InsertName: "Python fold 1 both"
+        StringToInsert: "\# fold here %R%°⟱1≈150¨%N%%ST%%N%\# fold here %R%°⟰1≈150¨"
+    }
+    "alt-ctrl-f°1°e": {
+        Comment: "Atom custom folds fold 1 end"
+        InsertName: "Python fold 1 end"
+        StringToInsert: "\# fold here %R%°⟰1≈150¨"
+    }
+    "alt-ctrl-f°1°s": {
+        Comment: "Atom custom folds fold 1 start"
+        InsertName: "Python fold 1 start"
+        StringToInsert: "\# fold here %R%°⟱1≈150¨"
+    }
+    "alt-ctrl-f°2°b": {
+        Comment: "Atom custom folds fold 2 both"
+        InsertName: "Python fold 2 both"
+        StringToInsert: "\# fold here %R%°⟱2≈150¨%N%%ST%%N%\# fold here %R%°⟰2≈150¨"
+    }
+    "alt-ctrl-f°2°e": {
+        Comment: "Atom custom folds fold 2 end"
+        InsertName: "Python fold 2 end"
+        StringToInsert: "\# fold here %R%°⟰2≈150¨"
+    }
+    "alt-ctrl-f°2°s": {
+        Comment: "Atom custom folds fold 2 start"
+        InsertName: "Python fold 2 start"
+        StringToInsert: "\# fold here %R%°⟱2≈150¨"
+    }
+    "alt-ctrl-f°3°b": {
+        Comment: "Atom custom folds fold 3 both"
+        InsertName: "Python fold 3 both"
+        StringToInsert: "\# fold here %R%°⟱3≈150¨%N%%ST%%N%\# fold here %R%°⟰3≈150¨"
+    }
+    "alt-ctrl-f°3°e": {
+        Comment: "Atom custom folds fold 3 end"
+        InsertName: "Python fold 3 end"
+        StringToInsert: "\# fold here %R%°⟰3≈150¨"
+    }
+    "alt-ctrl-f°3°s": {
+        Comment: "Atom custom folds fold 3 start"
+        InsertName: "Python fold 3 start"
+        StringToInsert: "\# fold here %R%°⟱3≈150¨"
+    }
+    "alt-ctrl-m°0°a": {
+        Comment: "Mark 0 all, up and down order lines"
+        InsertName: "Mark 0 all"
+        StringToInsert: "\#%R%° ⟰0≈80¨%N%\#%R%° 0⟱≈80¨"
+    }
+    "alt-ctrl-m°0°b": {
+        Comment: "Mark 0 both, down and up order lines"
+        InsertName: "Mark 0 both"
+        StringToInsert: "\#%R%° 0⟱≈80¨%N%%ST%\#%R%° ⟰0≈80¨"
+    }
+    "alt-ctrl-m°0°e": {
+        Comment: "Mark 1 end (up arrows)"
+        InsertName: "Mark 1 end"
+        StringToInsert: "\#%R%° ⟰1≈80¨"
+    }
+    "alt-ctrl-m°0°m": {
+        Comment: "Mark 0 middle, up and down together"
+        InsertName: "Mark 0 middle"
+        StringToInsert: "\#%R%° ⟰0⟱≈56¨"
+    }
+    "alt-ctrl-m°0°s": {
+        Comment: "Mark 0 start (down arrows)"
+        InsertName: "Mark 0 start"
+        StringToInsert: "\#%R%° 0⟱≈80¨"
+    }
+    "alt-ctrl-m°0°x": {
+        Comment: "Mark 0 extended, down, middle, and up lines"
+        InsertName: "Mark 0 extended"
+        StringToInsert: "\#%R%° 0⟱≈80¨%N%%ST%\#%R%° ⟰0⟱≈56¨%N%\#%R%° ⟰0≈80¨"
+    }
+    "alt-ctrl-m°1°a": {
+        Comment: "Mark 0 all, up and down order lines"
+        InsertName: "Mark 1 all"
+        StringToInsert: "\#%R%° ⟰1≈80¨%N%\#%R%° 1⟱≈80¨"
+    }
+    "alt-ctrl-m°1°b": {
+        Comment: "Mark 1 both, down and up order lines"
+        InsertName: "Mark 1 both"
+        StringToInsert: "\#%R%° 1⟱≈80¨%N%%ST%\#%R%° ⟰1≈80¨"
+    }
+    "alt-ctrl-m°1°m": {
+        Comment: "Mark 1 middle, up and down together"
+        InsertName: "Mark 1 middle"
+        StringToInsert: "\#%R%° ⟰1⟱≈56¨"
+    }
+    "alt-ctrl-m°1°s": {
+        Comment: "Mark 1 start (down arrows)"
+        InsertName: "Mark 1 start"
+        StringToInsert: "\#%R%° 1⟱≈80¨"
+    }
+    "alt-ctrl-m°1°x": {
+        Comment: "Mark 1 extended, down, middle, and up lines"
+        InsertName: "Mark 1 extended"
+        StringToInsert: "\#%R%° 1⟱≈80¨%N%%ST%\#%R%° ⟰1⟱≈56¨%N%\#%R%° ⟰1≈80¨"
+    }
+    "alt-ctrl-m°2°a": {
+        Comment: "Mark 2 all, up and down order lines"
+        InsertName: "Mark20 all"
+        StringToInsert: "\#%R%° ⟰2≈80¨%N%\#%R%° 2⟱≈80¨"
+    }
+    "alt-ctrl-m°2°b": {
+        Comment: "Mark 2 both, down and up order lines"
+        InsertName: "Mark 2 both"
+        StringToInsert: "\#%R%° 2⟱≈80¨%N%%ST%\#%R%° ⟰2≈80¨"
+    }
+    "alt-ctrl-m°2°e": {
+        Comment: "Mark 2 end (up arrows)"
+        InsertName: "Mark 2 end"
+        StringToInsert: "\#%R%° ⟰2≈80¨"
+    }
+    "alt-ctrl-m°2°m": {
+        Comment: "Mark 2 middle, up and down together"
+        InsertName: "Mark 2 middle"
+        StringToInsert: "\#%R%° ⟰2⟱≈56¨"
+    }
+    "alt-ctrl-m°2°s": {
+        Comment: "Mark 2 start (down arrows)"
+        InsertName: "Mark 2 start"
+        StringToInsert: "\#%R%° 2⟱≈80¨"
+    }
+    "alt-ctrl-m°2°x": {
+        Comment: "Mark 2 extended, down, middle, and up lines"
+        InsertName: "Mark 2 extended"
+        StringToInsert: "\#%R%° 2⟱≈80¨%N%%ST%\#%R%° ⟰2⟱≈56¨%N%\#%R%° ⟰2≈80¨"
+    }
+    "alt-ctrl-m°3°a": {
+        Comment: "Mark 3 all, up and down order lines"
+        InsertName: "Mark30 all"
+        StringToInsert: "\#%R%° ⟰3≈80¨%N%\#%R%° 3⟱≈80¨"
+    }
+    "alt-ctrl-m°3°b": {
+        Comment: "Mark 3 both, down and up order lines"
+        InsertName: "Mark 3 both"
+        StringToInsert: "\#%R%° 3⟱≈80¨%N%%ST%\#%R%° ⟰3≈80¨"
+    }
+    "alt-ctrl-m°3°e": {
+        Comment: "Mark 3 end (up arrows)"
+        InsertName: "Mark 3 end"
+        StringToInsert: "\#%R%° ⟰3≈80¨"
+    }
+    "alt-ctrl-m°3°m": {
+        Comment: "Mark 3 middle, up and down together"
+        InsertName: "Mark 3 middle"
+        StringToInsert: "\#%R%° ⟰3⟱≈56¨"
+    }
+    "alt-ctrl-m°3°s": {
+        Comment: "Mark 3 start (down arrows)"
+        InsertName: "Mark 3 start"
+        StringToInsert: "\#%R%° 3⟱≈80¨"
+    }
+    "alt-ctrl-m°3°x": {
+        Comment: "Mark 3 extended, down, middle, and up lines"
+        InsertName: "Mark 3 extended"
+        StringToInsert: "\#%R%° 3⟱≈80¨%N%%ST%\#%R%° ⟰3⟱≈56¨%N%\#%R%° ⟰3≈80¨"
+    }
+    "alt-ctrl-m°4°a": {
+        Comment: "Mark 4 all, up and down order lines"
+        InsertName: "Mark40 all"
+        StringToInsert: "\#%R%° ⟰4≈80¨%N%\#%R%° 4⟱≈80¨"
+    }
+    "alt-ctrl-m°4°b": {
+        Comment: "Mark 4 both, down and up order lines"
+        InsertName: "Mark 4 both"
+        StringToInsert: "\#%R%° 4⟱≈80¨%N%%ST%\#%R%° ⟰4≈80¨"
+    }
+    "alt-ctrl-m°4°e": {
+        Comment: "Mark 4 end (up arrows)"
+        InsertName: "Mark 4 end"
+        StringToInsert: "\#%R%° ⟰4≈80¨"
+    }
+    "alt-ctrl-m°4°m": {
+        Comment: "Mark 4 middle, up and down together"
+        InsertName: "Mark 4 middle"
+        StringToInsert: "\#%R%° ⟰4⟱≈56¨"
+    }
+    "alt-ctrl-m°4°s": {
+        Comment: "Mark 4 start (down arrows)"
+        InsertName: "Mark 4 start"
+        StringToInsert: "\#%R%° 4⟱≈80¨"
+    }
+    "alt-ctrl-m°4°x": {
+        Comment: "Mark 4 extended, down, middle, and up lines"
+        InsertName: "Mark 4 extended"
+        StringToInsert: "\#%R%° 4⟱≈80¨%N%%ST%\#%R%° ⟰4⟱≈56¨%N%\#%R%° ⟰4≈80¨"
+    }
+    "alt-ctrl-m°5°a": {
+        Comment: "Mark 5 all, up and down order lines"
+        InsertName: "Mark50 all"
+        StringToInsert: "\#%R%° ⟰5≈80¨%N%\#%R%° 5⟱≈80¨"
+    }
+    "alt-ctrl-m°5°b": {
+        Comment: "Mark 5 both, down and up order lines"
+        InsertName: "Mark 5 both"
+        StringToInsert: "\#%R%° 5⟱≈80¨%N%%ST%\#%R%° ⟰5≈80¨"
+    }
+    "alt-ctrl-m°5°e": {
+        Comment: "Mark 5 end (up arrows)"
+        InsertName: "Mark 5 end"
+        StringToInsert: "\#%R%° ⟰5≈80¨"
+    }
+    "alt-ctrl-m°5°m": {
+        Comment: "Mark 5 middle, up and down together"
+        InsertName: "Mark 5 middle"
+        StringToInsert: "\#%R%° ⟰5⟱≈56¨"
+    }
+    "alt-ctrl-m°5°s": {
+        Comment: "Mark 5 start (down arrows)"
+        InsertName: "Mark 5 start"
+        StringToInsert: "\#%R%° 5⟱≈80¨"
+    }
+    "alt-ctrl-m°5°x": {
+        Comment: "Mark 5 extended, down, middle, and up lines"
+        InsertName: "Mark 5 extended"
+        StringToInsert: "\#%R%° 5⟱≈80¨%N%%ST%\#%R%° ⟰5⟱≈56¨%N%\#%R%° ⟰5≈80¨"
+    }
+    "alt-ctrl-m°6°a": {
+        Comment: "Mark 6 all, up and down order lines"
+        InsertName: "Mark60 all"
+        StringToInsert: "\#%R%° ⟰6≈80¨%N%\#%R%° 6⟱≈80¨"
+    }
+    "alt-ctrl-m°6°b": {
+        Comment: "Mark 6 both, down and up order lines"
+        InsertName: "Mark 6 both"
+        StringToInsert: "\#%R%° 6⟱≈80¨%N%%ST%\#%R%° ⟰6≈80¨"
+    }
+    "alt-ctrl-m°6°e": {
+        Comment: "Mark 6 end (up arrows)"
+        InsertName: "Mark 6 end"
+        StringToInsert: "\#%R%° ⟰6≈80¨"
+    }
+    "alt-ctrl-m°6°m": {
+        Comment: "Mark 6 middle, up and down together"
+        InsertName: "Mark 6 middle"
+        StringToInsert: "\#%R%° ⟰6⟱≈56¨"
+    }
+    "alt-ctrl-m°6°s": {
+        Comment: "Mark 6 start (down arrows)"
+        InsertName: "Mark 6 start"
+        StringToInsert: "\#%R%° 6⟱≈80¨"
+    }
+    "alt-ctrl-m°6°x": {
+        Comment: "Mark 6 extended, down, middle, and up lines"
+        InsertName: "Mark 6 extended"
+        StringToInsert: "\#%R%° 6⟱≈80¨%N%%ST%\#%R%° ⟰6⟱≈56¨%N%\#%R%° ⟰6≈80¨"
+    }
+    "alt-ctrl-m°7°a": {
+        Comment: "Mark 7 all, up and down order lines"
+        InsertName: "Mark70 all"
+        StringToInsert: "\#%R%° ⟰7≈80¨%N%\#%R%° 7⟱≈80¨"
+    }
+    "alt-ctrl-m°7°b": {
+        Comment: "Mark 7 both, down and up order lines"
+        InsertName: "Mark 7 both"
+        StringToInsert: "\#%R%° 7⟱≈80¨%N%%ST%\#%R%° ⟰7≈80¨"
+    }
+    "alt-ctrl-m°7°e": {
+        Comment: "Mark 7 end (up arrows)"
+        InsertName: "Mark 7 end"
+        StringToInsert: "\#%R%° ⟰7≈80¨"
+    }
+    "alt-ctrl-m°7°m": {
+        Comment: "Mark 7 middle, up and down together"
+        InsertName: "Mark 7 middle"
+        StringToInsert: "\#%R%° ⟰7⟱≈56¨"
+    }
+    "alt-ctrl-m°7°s": {
+        Comment: "Mark 7 start (down arrows)"
+        InsertName: "Mark 7 start"
+        StringToInsert: "\#%R%° 7⟱≈80¨"
+    }
+    "alt-ctrl-m°7°x": {
+        Comment: "Mark 7 extended, down, middle, and up lines"
+        InsertName: "Mark 7 extended"
+        StringToInsert: "\#%R%° 7⟱≈80¨%N%%ST%\#%R%° ⟰7⟱≈56¨%N%\#%R%° ⟰7≈80¨"
+    }
+    "alt-ctrl-m°8°a": {
+        Comment: "Mark 8 all, up and down order lines"
+        InsertName: "Mark80 all"
+        StringToInsert: "\#%R%° ⟰8≈80¨%N%\#%R%° 8⟱≈80¨"
+    }
+    "alt-ctrl-m°8°b": {
+        Comment: "Mark 8 both, down and up order lines"
+        InsertName: "Mark 8 both"
+        StringToInsert: "\#%R%° 8⟱≈80¨%N%%ST%\#%R%° ⟰8≈80¨"
+    }
+    "alt-ctrl-m°8°e": {
+        Comment: "Mark 8 end (up arrows)"
+        InsertName: "Mark 8 end"
+        StringToInsert: "\#%R%° ⟰8≈80¨"
+    }
+    "alt-ctrl-m°8°m": {
+        Comment: "Mark 8 middle, up and down together"
+        InsertName: "Mark 8 middle"
+        StringToInsert: "\#%R%° ⟰8⟱≈56¨"
+    }
+    "alt-ctrl-m°8°s": {
+        Comment: "Mark 8 start (down arrows)"
+        InsertName: "Mark 8 start"
+        StringToInsert: "\#%R%° 8⟱≈80¨"
+    }
+    "alt-ctrl-m°8°x": {
+        Comment: "Mark 8 extended, down, middle, and up lines"
+        InsertName: "Mark 8 extended"
+        StringToInsert: "\#%R%° 8⟱≈80¨%N%%ST%\#%R%° ⟰8⟱≈56¨%N%\#%R%° ⟰8≈80¨"
+    }
+    "alt-ctrl-m°9°a": {
+        Comment: "Mark 9 all, up and down order lines"
+        InsertName: "Mark90 all"
+        StringToInsert: "\#%R%° ⟰9≈80¨%N%\#%R%° 9⟱≈80¨"
+    }
+    "alt-ctrl-m°9°b": {
+        Comment: "Mark 9 both, down and up order lines"
+        InsertName: "Mark 9 both"
+        StringToInsert: "\#%R%° 9⟱≈80¨%N%%ST%\#%R%° ⟰9≈80¨"
+    }
+    "alt-ctrl-m°9°e": {
+        Comment: "Mark 9 end (up arrows)"
+        InsertName: "Mark 9 end"
+        StringToInsert: "\#%R%° ⟰9≈80¨"
+    }
+    "alt-ctrl-m°9°m": {
+        Comment: "Mark 9 middle, up and down together"
+        InsertName: "Mark 9 middle"
+        StringToInsert: "\#%R%° ⟰9⟱≈56¨"
+    }
+    "alt-ctrl-m°9°s": {
+        Comment: "Mark 9 start (down arrows)"
+        InsertName: "Mark 9 start"
+        StringToInsert: "\#%R%° 9⟱≈80¨"
+    }
+    "alt-ctrl-m°9°x": {
+        Comment: "Mark 9 extended, down, middle, and up lines"
+        InsertName: "Mark 9 extended"
+        StringToInsert: "\#%R%° 9⟱≈80¨%N%%ST%\#%R%° ⟰9⟱≈56¨%N%\#%R%° ⟰9≈80¨"
+    }
+    "alt-ctrl-m°c°b": {
+        Comment: "Comment block"
+        InsertName: "Python comment block"
+        StringToInsert: "\# * %R%°\#*≈150¨%N%\# * Start of __NAME__%N%\# * %R%°\#*≈150¨%N%%ST%\# * %R%°\#*≈150¨%N%\# * End of __NAME__%N%\# * %R%°\#*≈150¨%N%"
+    }
+    "alt-ctrl-m°c°c": {
+        Comment: "Generic comment starter"
+        InsertName: "Hash Comment"
+        StringToInsert: "\# * "
+    }
+    "alt-ctrl-m°c°t": {
+        Comment: "Comment block, tall edition"
+        InsertName: "Tall comment block"
+        StringToInsert: "\# *****%N%\# R%°*≈10¨%N%\# R%°*≈20¨%N%\# R%°*≈40¨\# * %R%°\#*≈150¨%N%\# * Start of __NAME__%N%\# * %R%°\#*≈150¨%N%%ST%\# * %R%°\#*≈150¨%N%\# * End of __NAME__%N%\# * %R%°\#*≈150¨%N%\# *****%N%\# R%°*≈10¨%N%\# R%°*≈20¨%N%\# R%°*≈40¨%N%"
+    }
+    "alt-ctrl-m°i°l": {
+        Comment: "Mark info line"
+        InsertName: "Mark Info Line"
+        StringToInsert: "\# *** INFO *** %R%°%⟱_≈56¨"
+    }
+    "alt-ctrl-m°n°d": {
+        Comment: "Mark not diagnostic comment line"
+        InsertName: "Not Diagnostic"
+        StringToInsert: "\# *** NOT DIAGNOSTIC ***  %R%°%⟱_≈56¨"
+    }
+    "alt-ctrl-m°n°e": {
+        Comment: "Mark nothing end, up arrows."
+        InsertName: "Mark nothing end"
+        StringToInsert: "\# %R%°⟰_≈56¨"
+    }
+    "alt-ctrl-m°n°m": {
+        Comment: "Mark nothing middle, up and down arrows"
+        InsertName: "Mark Nothing Middle"
+        StringToInsert: "\# %R%°⟰⟱≈56¨"
+    }
+    "alt-ctrl-m°n°s": {
+        Comment: "Mark nothing start, down arrows"
+        InsertName: "Mark Not Diagnostic"
+        StringToInsert: "\# %R%°⟱_≈56¨"
+    }
+    "alt-ctrl-p°e°d": {
+        Comment: "Phrase empty _dictToRtn_"
+        InsertName: "Empty _dictToRtn_"
+        StringToInsert: "_dictToRtn_ = {}%N%"
+    }
+    "alt-ctrl-p°e°l": {
+        Comment: "Phrase empty _listToRtn_"
+        InsertName: "Empty _listToRtn_"
+        StringToInsert: "_listToRtn_ = []%N%"
+    }
+    "alt-ctrl-p°e°p": {
+        Comment: "Phrase empty print"
+        InsertName: "Empty _strToRtn_"
+        StringToInsert: "print(f%Q%%Q%%Q%%C%%Q%%Q%%Q%)"
+    }
+    "alt-ctrl-p°e°q": {
+        Comment: "Phrase empty f-quotes"
+        InsertName: "Empty F-Quote"
+        StringToInsert: "f%Q%%Q%%Q%%C%%Q%%Q%%Q%"
+    }
+    "alt-ctrl-p°e°s": {
+        Comment: "Phrase empty _strToRtn_"
+        InsertName: "Empty _strToRtn_"
+        StringToInsert: "_strToRtn_ = %Q%%Q%%N%"
+    }
+    "alt-ctrl-p°e°t": {
+        Comment: "Empty _tupToRtn_"
+        InsertName: "Empty _tupToRtn_"
+        StringToInsert: "_tupToRtn_ = ()%N%"
+    }
+    "alt-ctrl-p°r°d": {
+        Comment: "Mark nothing start, down arrows"
+        InsertName: "Mark Not Diagnostic"
+        StringToInsert: "\# %R%°⟱_≈56¨"
+    }
+    "alt-ctrl-p°r°l": {
+        Comment: "Phrase return _listToRtn_"
+        InsertName: "Return _listToRtn_"
+        StringToInsert: "return _listToRtn_%N%"
+    }
+    "alt-ctrl-p°r°s": {
+        Comment: "Empty _strToRtn_"
+        InsertName: "Empty _strToRtn_"
+        StringToInsert: "return _strToRtn_"
+    }
+    "alt-ctrl-p°r°t": {
+        Comment: "Empty _tupToRtn_"
+        InsertName: "Empty _tupToRtn_"
+        StringToInsert: "return _tupToRtn_"
+    }
+  }
+
+"text.md":
+  LinkifyFixedText: "y"
+  LowerCaseFixedText: "y"
+  UpperCaseSelectedText: "n"
+  Templates: {
+    "alt-ctrl-f°r°0": {
+        Comment: "File reference link in this file"
+        InsertName: "Link to this"
+        StringToInsert: "[%ST%](\#%FT%)"
+    }
+    "alt-ctrl-f°r°c°a": {
+        Comment: "File reference link in CALENDAR.md"
+        InsertName: "Link to CALENDAR.md"
+        StringToInsert: "[%ST%](./CALENDAR.md\#%FT%)"
+    }
+    "alt-ctrl-f°r°c°h": {
+        Comment: "File reference link in CHARACTERS.md"
+        InsertName: "Link to CHARACTERS.md"
+        StringToInsert: "[%ST%](./CHARACTERS.md\#%FT%)"
+    }
+    "alt-ctrl-f°r°c°o": {
+        Comment: "File reference link in CODES.md"
+        InsertName: "Link to CODES.md"
+        StringToInsert: "[%ST%](./CODES.md\#%FT%)"
+    }
+    "alt-ctrl-f°r°c°w": {
+        Comment: "File reference link in WALKONCHARACTERS.md"
+        InsertName: "Link to WALKONCHARACTERS.md"
+        StringToInsert: "[%ST%](./WALKONCHARACTERS.md\#%FT%)"
+    }
+    "alt-ctrl-f°r°g°d": {
+        Comment: "File reference link in DnDGLOSSARY.md"
+        InsertName: "Link to DnDGLOSSARY.md"
+        StringToInsert: "[%ST%](./DnDGLOSSARY.md\#%FT%)"
+    }
+    "alt-ctrl-f°r°g°g": {
+        Comment: "File reference link in GLOSSARY.md"
+        InsertName: "Link to GLOSSARY.md"
+        StringToInsert: "[%ST%](./GLOSSARY.md\#%FT%)"
+    }
+    "alt-ctrl-f°r°g°t": {
+        Comment: "File reference link in TRANSPORTATIONGLOSSARY.md"
+        InsertName: "Link to TRANSPORTATIONGLOSSARY.md"
+        StringToInsert: "[%ST%](./TRANSPORTATIONGLOSSARY.md\#%FT%)"
+    }
+    "alt-ctrl-f°i°m°l": {
+        Comment: "File reference link in HOWIMETLIAM.md"
+        InsertName: "Link to HOWIMETLIAM.md"
+        StringToInsert: "[%ST%](./HOWIMETLIAM.md\#%FT%)"
+    }
+    "alt-ctrl-f°s°b": {
+        Comment: "Bold"
+        InsertName: "Markdown Bold"
+        StringToInsert: "**%ST%**"
+    }
+    "alt-ctrl-f°s°o°o": {
+        Comment: "Overstrike only"
+        InsertName: "Markdown Overstrike"
+        StringToInsert: "~~%ST%~~"
+    }
+
+    "alt-ctrl-f°s°o°h": {
+        Comment: "Overstrike and highlight"
+        InsertName: "Markdown Overstrike and Highlight"
+        StringToInsert: "***~~%ST%~~***"
+    }
+
+    "alt-ctrl-f°s°h": {
+        Comment: "Format selection highlight (bold italics)"
+        InsertName: "Markdown Highlight"
+        StringToInsert: "***%ST%***"
+    }
+
+    "alt-ctrl-f°s°i": {
+        Comment: "Format selection italics"
+        InsertName: "Markdown Italics"
+        StringToInsert: "*%ST%*"
+    }
+
+
+
+
+    "alt-ctrl-c°e": {
+        Comment: "Communicate E_ ears, small close group"
+        InsertName: "Story Communicate Ears E_"
+        StringToInsert: "> E_&nbsp;&nbsp;`%ST%:`: %C%"
+    }
+
+    "alt-ctrl-c°g": {
+        Comment: "Communicate GEN_ general, appropriate to the situation mix of radio, phone, and local"
+        InsertName: "Story Communicate General GEN_"
+        StringToInsert: "> GEN_&nbsp;&nbsp;`%ST%:`: %C%"
+    }
+
+    "alt-ctrl-c°l": {
+        Comment: "Communicate LCL_ Local, the room"
+        InsertName: "Story Communicate Local LCL_"
+        StringToInsert: "> LCL_&nbsp;&nbsp;`%ST%:`: %C%"
+    }
+
+    "alt-ctrl-c°p°o": {
+        Comment: "Communicate PHNO_ phone one sided"
+        InsertName: "Story Communicate Phone One Sided PHNO_"
+        StringToInsert: "> PHNO_&nbsp;&nbsp;`%ST%:`: %C%"
+    }
+
+    "alt-ctrl-c°p°s": {
+        Comment: "Communicate phone speaker PHNS_"
+        InsertName: "Story Communicate Phone Speaker"
+        StringToInsert: "> PHNS_&nbsp;&nbsp;`%ST%:`: %C%"
+    }
+
+    "alt-ctrl-c°r°o": {
+        Comment: "Communicate radio one sided RO_"
+        InsertName: "Story Communicate Local LCL_"
+        StringToInsert: "> LCL_&nbsp;&nbsp;`%ST%:`: %C%"
+    }
+
+    "alt-ctrl-c°r°s": {
+        Comment: "Communicate radio speaker RS_"
+        InsertName: "Story Communicate radio speaker RS_"
+        StringToInsert: "> RS_&nbsp;&nbsp;`%ST%:`: %C%"
+    }
+
+
+
+
+    "alt-ctrl-c°t°e": {
+        Comment: "Communicate E_ ears thought ……, small close group"
+        InsertName: "Story Communicate Ears …… E_"
+        StringToInsert: "> E_&nbsp;……&nbsp;`%ST%:`: %C%"
+    }
+
+    "alt-ctrl-c°t°g": {
+        Comment: "Communicate GEN_ general, thought pause ……appropriate to the situation mix of radio, phone, and local"
+        InsertName: "Story Communicate General …… GEN_"
+        StringToInsert: "> GEN_&nbsp;……&nbsp;`%ST%:`: %C%"
+    }
+
+    "alt-ctrl-c°t°l": {
+        Comment: "Communicate LCL_ thought pause …… Local, the room"
+        InsertName: "Story Communicate Local …… LCL_"
+        StringToInsert: "> LCL_&nbsp;……&nbsp;`%ST%:`: %C%"
+    }
+
+    "alt-ctrl-c°t°p°o": {
+        Comment: "Communicate PHNO_ thought pause …… phone one sided"
+        InsertName: "Story Communicate Phone One Sided …… PHNO_"
+        StringToInsert: "> PHNO_&nbsp;……&nbsp;`%ST%:`: %C%"
+    }
+
+    "alt-ctrl-c°t°p°s": {
+        Comment: "Communicate thought pause …… phone speaker PHNS_"
+        InsertName: "Story Communicate Phone Speaker PHNS_ ……"
+        StringToInsert: "> PHNS_&nbsp;……&nbsp;`%ST%:`: %C%"
+    }
+
+    "alt-ctrl-c°t°r°o": {
+        Comment: "Communicate thought pause …… radio one sided RO_"
+        InsertName: "Story Communicate Local …… LCL_"
+        StringToInsert: "> LCL_&nbsp;……&nbsp;`%ST%:`: %C%"
+    }
+
+    "alt-ctrl-c°t°r°s": {
+        Comment: "Communicate thought pause …… radio speaker RS_"
+        InsertName: "Story Communicate radio speaker …… RS_"
+        StringToInsert: "> RS_&nbsp;……&nbsp;`%ST%:`: %C%"
+    }
+
+
+    "alt-ctrl-c°t°w°a": {
+        Comment: "Communicate wireless air channel"
+        InsertName: "Story Communicate radio speaker …… RS_:air"
+        StringToInsert: "> RS_&nbsp;……&nbsp;`%ST%:air`: %C%"
+    }
+
+    "alt-ctrl-c°t°w°b": {
+        Comment: "Communicate wireless Betelgeuse channel"
+        InsertName: "Story Communicate radio speaker …… RS_:Betelgeuse"
+        StringToInsert: "> RS_&nbsp;……&nbsp;`%ST%:Betelgeuse`: %C%"
+    }
+
+    "alt-ctrl-c°t°w°s": {
+        Comment: "Communicate wireless statewide channel"
+        InsertName: "Story Communicate radio speaker statewide RS_:statewide"
+        StringToInsert: "> RS_&nbsp;……&nbsp;`%ST%:statewide`: %C%"
+    }
+
+
+    "alt-ctrl-c°w°a": {
+        Comment: "Communicate wireless air channel"
+        InsertName: "Story Communicate radio speaker RS_:air"
+        StringToInsert: "> RS_&nbsp;&nbsp;`%ST%:air`: %C%"
+    }
+
+    "alt-ctrl-c°w°b": {
+        Comment: "Communicate wireless Betelgeuse channel"
+        InsertName: "Story Communicate radio speaker RS_:Betelgeuse"
+        StringToInsert: "> RS_&nbsp;&nbsp;`%ST%:Betelgeuse`: %C%"
+    }
+
+    "alt-ctrl-c°w°s": {
+        Comment: "Communicate wireless statewide channel"
+        InsertName: "Story Communicate radio speaker statewide RS_:statewide"
+        StringToInsert: "> RS_&nbsp;&nbsp;`%ST%:statewide`: %C%"
+    }
+
+
+    "alt-ctrl-c°z°p": {
+        Comment: "Communicate pause"
+        InsertName: "Story Communicate pause"
+        StringToInsert: "&nbsp;……&nbsp;"
+    }
+
+    "alt-ctrl-c°z°t": {
+        Comment: "Communicate time jump"
+        InsertName: "Story Communicate time jump"
+        StringToInsert: "&nbsp;……&nbsp;&nbsp;……&nbsp;%N%"
+    }
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,302 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'wrap0'
+      'command': 'myMacros:wrap0'
+    },
+    {
+      'label': 'wrap1'
+      'command': 'myMacros:wrap1'
+    },
+    {
+      'label': 'wrap2'
+      'command': 'myMacros:wrap2'
+    },
+    {
+      'label': 'wrap3'
+      'command': 'myMacros:wrap3'
+    },
+    {
+      'label': 'wrap4'
+      'command': 'myMacros:wrap4'
+    },
+    {
+      'label': 'wrap5'
+      'command': 'myMacros:wrap5'
+    },
+    {
+      'label': 'wrap6'
+      'command': 'myMacros:wrap6'
+    },
+    {
+      'label': 'wrap7'
+      'command': 'myMacros:wrap7'
+    },
+    {
+      'label': 'wrap8'
+      'command': 'myMacros:wrap8'
+    },
+    {
+      'label': 'wrap9'
+      'command': 'myMacros:wrap9'
+    },
+    {
+      'label': 'wrapA'
+      'command': 'myMacros:wrapA'
+    },
+    {
+      'label': 'wrapB'
+      'command': 'myMacros:wrapB'
+    },
+    {
+      'label': 'wrapC'
+      'command': 'myMacros:wrapC'
+    },
+    {
+      'label': 'wrapD'
+      'command': 'myMacros:wrapD'
+    },
+    {
+      'label': 'wrapE'
+      'command': 'myMacros:wrapE'
+    },
+    {
+      'label': 'wrapF'
+      'command': 'myMacros:wrapF'
+    },
+    {
+      'label': 'wrapG'
+      'command': 'myMacros:wrapG'
+    },
+    {
+      'label': 'wrapH'
+      'command': 'myMacros:wrapH'
+    },
+    {
+      'label': 'wrapI'
+      'command': 'myMacros:wrapI'
+    },
+    {
+      'label': 'wrapJ'
+      'command': 'myMacros:wrapJ'
+    },
+    {
+      'label': 'wrapK'
+      'command': 'myMacros:wrapK'
+    },
+    {
+      'label': 'wrapL'
+      'command': 'myMacros:wrapL'
+    },
+    {
+      'label': 'wrapM'
+      'command': 'myMacros:wrapM'
+    },
+    {
+      'label': 'wrapN'
+      'command': 'myMacros:wrapN'
+    },
+    {
+      'label': 'wrapO'
+      'command': 'myMacros:wrapO'
+    },
+    {
+      'label': 'wrapP'
+      'command': 'myMacros:wrapP'
+    },
+    {
+      'label': 'wrapQ'
+      'command': 'myMacros:wrapQ'
+    },
+    {
+      'label': 'wrapR'
+      'command': 'myMacros:wrapR'
+    },
+    {
+      'label': 'wrapS'
+      'command': 'myMacros:wrapS'
+    },
+    {
+      'label': 'wrapT'
+      'command': 'myMacros:wrapT'
+    },
+    {
+      'label': 'wrapU'
+      'command': 'myMacros:wrapU'
+    },
+    {
+      'label': 'wrapV'
+      'command': 'myMacros:wrapV'
+    },
+    {
+      'label': 'wrapW'
+      'command': 'myMacros:wrapW'
+    },
+    {
+      'label': 'wrapX'
+      'command': 'myMacros:wrapX'
+    },
+    {
+      'label': 'wrapY'
+      'command': 'myMacros:wrapY'
+    },
+    {
+      'label': 'wrapZ'
+      'command': 'myMacros:wrapZ'
+    },
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'myMacros'
+      'submenu': [
+        {
+          'label': 'wrap0'
+          'command': 'myMacros:wrap0'
+        },
+        {
+          'label': 'wrap1'
+          'command': 'myMacros:wrap1'
+        },
+        {
+          'label': 'wrap2'
+          'command': 'myMacros:wrap2'
+        },
+        {
+          'label': 'wrap3'
+          'command': 'myMacros:wrap3'
+        },
+        {
+          'label': 'wrap4'
+          'command': 'myMacros:wrap4'
+        },
+        {
+          'label': 'wrap5'
+          'command': 'myMacros:wrap5'
+        },
+        {
+          'label': 'wrap6'
+          'command': 'myMacros:wrap6'
+        },
+        {
+          'label': 'wrap7'
+          'command': 'myMacros:wrap7'
+        },
+        {
+          'label': 'wrap8'
+          'command': 'myMacros:wrap8'
+        },
+        {
+          'label': 'wrap9'
+          'command': 'myMacros:wrap9'
+        },
+        {
+          'label': 'wrapA'
+          'command': 'myMacros:wrapA'
+        },
+        {
+          'label': 'wrapB'
+          'command': 'myMacros:wrapB'
+        },
+        {
+          'label': 'wrapC'
+          'command': 'myMacros:wrapC'
+        },
+        {
+          'label': 'wrapD'
+          'command': 'myMacros:wrapD'
+        },
+        {
+          'label': 'wrapE'
+          'command': 'myMacros:wrapE'
+        },
+        {
+          'label': 'wrapF'
+          'command': 'myMacros:wrapF'
+        },
+        {
+          'label': 'wrapG'
+          'command': 'myMacros:wrapG'
+        },
+        {
+          'label': 'wrapH'
+          'command': 'myMacros:wrapH'
+        },
+        {
+          'label': 'wrapI'
+          'command': 'myMacros:wrapI'
+        },
+        {
+          'label': 'wrapJ'
+          'command': 'myMacros:wrapJ'
+        },
+        {
+          'label': 'wrapK'
+          'command': 'myMacros:wrapK'
+        },
+        {
+          'label': 'wrapL'
+          'command': 'myMacros:wrapL'
+        },
+        {
+          'label': 'wrapM'
+          'command': 'myMacros:wrapM'
+        },
+        {
+          'label': 'wrapN'
+          'command': 'myMacros:wrapN'
+        },
+        {
+          'label': 'wrapO'
+          'command': 'myMacros:wrapO'
+        },
+        {
+          'label': 'wrapP'
+          'command': 'myMacros:wrapP'
+        },
+        {
+          'label': 'wrapQ'
+          'command': 'myMacros:wrapQ'
+        },
+        {
+          'label': 'wrapR'
+          'command': 'myMacros:wrapR'
+        },
+        {
+          'label': 'wrapS'
+          'command': 'myMacros:wrapS'
+        },
+        {
+          'label': 'wrapT'
+          'command': 'myMacros:wrapT'
+        },
+        {
+          'label': 'wrapU'
+          'command': 'myMacros:wrapU'
+        },
+        {
+          'label': 'wrapV'
+          'command': 'myMacros:wrapV'
+        },
+        {
+          'label': 'wrapW'
+          'command': 'myMacros:wrapW'
+        },
+        {
+          'label': 'wrapX'
+          'command': 'myMacros:wrapX'
+        },
+        {
+          'label': 'wrapY'
+          'command': 'myMacros:wrapY'
+        },
+        {
+          'label': 'wrapZ'
+          'command': 'myMacros:wrapZ'
+        },
+      ]
+    ]
+  }
+]
