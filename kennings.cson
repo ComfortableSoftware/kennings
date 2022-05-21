@@ -6,11 +6,6 @@ Project: "kennings1"
   LowerCaseFixedText: "y"
   UpperCaseSelectedText: "n"
   Templates: {
-    "alt-ctrl-m°c": {
-        Comment: "Generic comment starter"
-        InsertName: "Hash Comment"
-        StringToInsert: "\# * "
-    }
     "alt-ctrl-c°c°d": {
         Comment: "Character 'Degrees' start of repeated text."
         InsertName: "Character Degrees"
@@ -45,11 +40,6 @@ Project: "kennings1"
         Comment: "Character quote double"
         InsertName: "Character Double quote"
         StringToInsert: "%Q%"
-    }
-    "alt-ctrl-m°c": {
-        Comment: "Generic comment starter"
-        InsertName: "Hash Comment"
-        StringToInsert: "\# * "
     }
     "alt-ctrl-c°n°l": {
         Comment: "Character newline"
@@ -531,9 +521,9 @@ Project: "kennings1"
         StringToInsert: "_tupToRtn_ = ()%N%"
     }
     "alt-ctrl-p°r°d": {
-        Comment: "Mark nothing start, down arrows"
-        InsertName: "Mark Not Diagnostic"
-        StringToInsert: "\# %R%°⟱_≈56؟"
+        Comment: "Phrase return _dictToRtn_"
+        InsertName: "Return _dictToRtn_"
+        StringToInsert: "return _dictToRtn_%N%"
     }
     "alt-ctrl-p°r°l": {
         Comment: "Phrase return _listToRtn_"
@@ -543,12 +533,12 @@ Project: "kennings1"
     "alt-ctrl-p°r°s": {
         Comment: "Empty _strToRtn_"
         InsertName: "Empty _strToRtn_"
-        StringToInsert: "return _strToRtn_"
+        StringToInsert: "return _strToRtn_%N%"
     }
     "alt-ctrl-p°r°t": {
         Comment: "Empty _tupToRtn_"
         InsertName: "Empty _tupToRtn_"
-        StringToInsert: "return _tupToRtn_"
+        StringToInsert: "return _tupToRtn_%N%"
     }
   }
 
