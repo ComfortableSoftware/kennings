@@ -16,14 +16,8 @@ module.exports =
       @insertIt("alt-ctrl-c°c°d")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-c°c°l", =>
       @insertIt("alt-ctrl-c°c°l")
-    atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-c°c°n°l", =>
-      @insertIt("alt-ctrl-c°c°n°l")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-c°c°q", =>
       @insertIt("alt-ctrl-c°c°q")
-    atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-c°c°q°d", =>
-      @insertIt("alt-ctrl-c°c°q°d")
-    atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-c°c°q°r", =>
-      @insertIt("alt-ctrl-c°c°q°r")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-c°c°r", =>
       @insertIt("alt-ctrl-c°c°r")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-c°d°c", =>
@@ -80,12 +74,8 @@ module.exports =
       @insertIt("alt-ctrl-c°z°t")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-d°c°c", =>
       @insertIt("alt-ctrl-d°c°c")
-    atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-d°c°e", =>
-      @insertIt("alt-ctrl-d°c°e")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-d°c°f", =>
       @insertIt("alt-ctrl-d°c°f")
-    atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-d°c°x", =>
-      @insertIt("alt-ctrl-d°c°x")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-d°i°e", =>
       @insertIt("alt-ctrl-d°i°e")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-d°i°i", =>
@@ -112,8 +102,6 @@ module.exports =
       @insertIt("alt-ctrl-f°3°e")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-f°3°s", =>
       @insertIt("alt-ctrl-f°3°s")
-    atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-f°i°m°l", =>
-      @insertIt("alt-ctrl-f°i°m°l")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-f°r°0", =>
       @insertIt("alt-ctrl-f°r°0")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-f°r°c°a", =>
@@ -130,6 +118,8 @@ module.exports =
       @insertIt("alt-ctrl-f°r°g°g")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-f°r°g°t", =>
       @insertIt("alt-ctrl-f°r°g°t")
+    atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-f°r°m°l", =>
+      @insertIt("alt-ctrl-f°r°m°l")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-f°s°b", =>
       @insertIt("alt-ctrl-f°s°b")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-f°s°h", =>
@@ -260,10 +250,6 @@ module.exports =
       @insertIt("alt-ctrl-m°9°s")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-m°9°x", =>
       @insertIt("alt-ctrl-m°9°x")
-    atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-m°b°n", =>
-      @insertIt("alt-ctrl-m°b°n")
-    atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-m°c", =>
-      @insertIt("alt-ctrl-m°c")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-m°c°b", =>
       @insertIt("alt-ctrl-m°c°b")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-m°c°c", =>
@@ -272,10 +258,6 @@ module.exports =
       @insertIt("alt-ctrl-m°c°t")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-m°i°l", =>
       @insertIt("alt-ctrl-m°i°l")
-    atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-m°n°a", =>
-      @insertIt("alt-ctrl-m°n°a")
-    atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-m°n°b", =>
-      @insertIt("alt-ctrl-m°n°b")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-m°n°d", =>
       @insertIt("alt-ctrl-m°n°d")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-m°n°e", =>

@@ -6,20 +6,15 @@ Project: "kennings1"
   LowerCaseFixedText: "y"
   UpperCaseSelectedText: "n"
   Templates: {
-    "alt-ctrl-c°c°a": {
-        Comment: "Character approximate end of repeated text start of number of repeats"
-        InsertName: "Character Approximate"
-        StringToInsert: "≈"
-    }
     "alt-ctrl-c°c°d": {
         Comment: "Character 'Degrees' start of repeated text."
         InsertName: "Character Degrees"
         StringToInsert: "°"
     }
-    "alt-ctrl-c°c°l": {
-        Comment: "Character hollow left triangle, end of filename"
-        InsertName: "Character Left Triangle"
-        StringToInsert: "◁"
+    "alt-ctrl-c°c°a": {
+        Comment: "Character approximate end of repeated text start of number of repeats"
+        InsertName: "Character Approximate"
+        StringToInsert: "≈"
     }
     "alt-ctrl-c°c°q": {
         Comment: "Character reverse quote enod of number of repeats"
@@ -30,6 +25,26 @@ Project: "kennings1"
         Comment: "Character hollow right triangle, start of filename"
         InsertName: "Character Right Triangle"
         StringToInsert: "▷"
+    }
+    "alt-ctrl-c°c°l": {
+        Comment: "Character hollow left triangle, end of filename"
+        InsertName: "Character Left Triangle"
+        StringToInsert: "◁"
+    }
+    "alt-ctrl-c°n°l": {
+        Comment: "Character newline"
+        InsertName: "New Line"
+        StringToInsert: "%N%"
+    }
+    "alt-ctrl-c°q°d": {
+        Comment: "Character quote double"
+        InsertName: "Character Double quote"
+        StringToInsert: "%Q%"
+    }
+    "alt-ctrl-m°c": {
+        Comment: "Generic comment starter"
+        InsertName: "Hash Comment"
+        StringToInsert: "\# * "
     }
     "alt-ctrl-c°n°l": {
         Comment: "Character newline"
@@ -388,16 +403,18 @@ Project: "kennings1"
   LowerCaseFixedText: "y"
   UpperCaseSelectedText: "n"
   Templates: {
-    "alt-ctrl-c°c°c": {
-        Comment: "Character DBLQT from CF_V"
-        InsertName: "Character Double quote"
-        StringToInsert: "{V.CF_V.DBLQT}"
-    }
     "alt-ctrl-c°d°c": {
         Comment: "Character DBLQT from CF_V"
         InsertName: "Character Double quote"
         StringToInsert: "{V.CF_V.DBLQT}"
     }
+
+    "alt-ctrl-c°c°c": {
+        Comment: "Character DBLQT from CF_V"
+        InsertName: "Character Double quote"
+        StringToInsert: "{V.CF_V.DBLQT}"
+    }
+
     "alt-ctrl-c°n°c": {
         Comment: "Character NEWLINE from CF_V"
         InsertName: "Python else"
@@ -509,9 +526,9 @@ Project: "kennings1"
         StringToInsert: "_tupToRtn_ = ()%N%"
     }
     "alt-ctrl-p°r°d": {
-        Comment: "Phrase return _dictToRtn_"
-        InsertName: "Return _dictToRtn_"
-        StringToInsert: "return _dictToRtn_%N%"
+        Comment: "Mark nothing start, down arrows"
+        InsertName: "Mark Not Diagnostic"
+        StringToInsert: "\# %R%°⟱_≈56؟"
     }
     "alt-ctrl-p°r°l": {
         Comment: "Phrase return _listToRtn_"
@@ -521,12 +538,12 @@ Project: "kennings1"
     "alt-ctrl-p°r°s": {
         Comment: "Empty _strToRtn_"
         InsertName: "Empty _strToRtn_"
-        StringToInsert: "return _strToRtn_%N%"
+        StringToInsert: "return _strToRtn_"
     }
     "alt-ctrl-p°r°t": {
         Comment: "Empty _tupToRtn_"
         InsertName: "Empty _tupToRtn_"
-        StringToInsert: "return _tupToRtn_%N%"
+        StringToInsert: "return _tupToRtn_"
     }
   }
 
@@ -572,24 +589,27 @@ Project: "kennings1"
         InsertName: "Markdown Bold"
         StringToInsert: "**%ST%**"
     }
-    "alt-ctrl-f°s°h": {
-        Comment: "Format selection highlight (bold italics)"
-        InsertName: "Markdown Highlight"
-        StringToInsert: "***%ST%***"
+    "alt-ctrl-f°s°o°o": {
+        Comment: "Overstrike only"
+        InsertName: "Markdown Overstrike"
+        StringToInsert: "~~%ST%~~"
     }
-    "alt-ctrl-f°s°i": {
-        Comment: "Format selection italics"
-        InsertName: "Markdown Italics"
-        StringToInsert: "*%ST%*"
-    }
+
     "alt-ctrl-f°s°o°h": {
         Comment: "Overstrike and highlight"
         InsertName: "Markdown Overstrike and Highlight"
         StringToInsert: "***~~%ST%~~***"
     }
-    "alt-ctrl-f°s°o°o": {
-        Comment: "Overstrike only"
-        InsertName: "Markdown Overstrike"
-        StringToInsert: "~~%ST%~~"
+
+    "alt-ctrl-f°s°h": {
+        Comment: "Format selection highlight (bold italics)"
+        InsertName: "Markdown Highlight"
+        StringToInsert: "***%ST%***"
+    }
+
+    "alt-ctrl-f°s°i": {
+        Comment: "Format selection italics"
+        InsertName: "Markdown Italics"
+        StringToInsert: "*%ST%*"
     }
   }
