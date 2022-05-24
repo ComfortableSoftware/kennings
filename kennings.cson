@@ -6,15 +6,20 @@ Project: "kennings1"
   LowerCaseFixedText: "y"
   UpperCaseSelectedText: "n"
   Templates: {
+    "alt-ctrl-c°c°a": {
+        Comment: "Character approximate end of repeated text start of number of repeats"
+        InsertName: "Character Approximate"
+        StringToInsert: "≈"
+    }
     "alt-ctrl-c°c°d": {
         Comment: "Character 'Degrees' start of repeated text."
         InsertName: "Character Degrees"
         StringToInsert: "°"
     }
-    "alt-ctrl-c°c°a": {
-        Comment: "Character approximate end of repeated text start of number of repeats"
-        InsertName: "Character Approximate"
-        StringToInsert: "≈"
+    "alt-ctrl-c°c°l": {
+        Comment: "Character hollow left triangle, end of filename"
+        InsertName: "Character Left Triangle"
+        StringToInsert: "◁"
     }
     "alt-ctrl-c°c°q": {
         Comment: "Character reverse quote enod of number of repeats"
@@ -25,26 +30,6 @@ Project: "kennings1"
         Comment: "Character hollow right triangle, start of filename"
         InsertName: "Character Right Triangle"
         StringToInsert: "▷"
-    }
-    "alt-ctrl-c°c°l": {
-        Comment: "Character hollow left triangle, end of filename"
-        InsertName: "Character Left Triangle"
-        StringToInsert: "◁"
-    }
-    "alt-ctrl-c°n°l": {
-        Comment: "Character newline"
-        InsertName: "New Line"
-        StringToInsert: "%N%"
-    }
-    "alt-ctrl-c°q°d": {
-        Comment: "Character quote double"
-        InsertName: "Character Double quote"
-        StringToInsert: "%Q%"
-    }
-    "alt-ctrl-m°c": {
-        Comment: "Generic comment starter"
-        InsertName: "Hash Comment"
-        StringToInsert: "\# * "
     }
     "alt-ctrl-c°n°l": {
         Comment: "Character newline"
@@ -64,7 +49,7 @@ Project: "kennings1"
     "alt-ctrl-m°0°b": {
         Comment: "Mark 0 both, down and up order lines"
         InsertName: "Mark 0 both"
-        StringToInsert: "\#%R%° 0⟱≈80؟%N%%ST%\#%R%° ⟰0≈80؟"
+        StringToInsert: "\#%R%° 0⟱≈80؟%N%%ST%%C%pass%N%\#%R%° ⟰0≈80؟"
     }
     "alt-ctrl-m°0°e": {
         Comment: "Mark 0 end (up arrows)"
@@ -84,7 +69,7 @@ Project: "kennings1"
     "alt-ctrl-m°0°x": {
         Comment: "Mark 0 extended, down, middle, and up lines"
         InsertName: "Mark 0 extended"
-        StringToInsert: "\#%R%° 0⟱≈80؟%N%%ST%\#%R%° ⟰0⟱≈56؟%N%\#%R%° ⟰0≈80؟"
+        StringToInsert: "\#%R%° 0⟱≈80؟%N%%ST%%C%pass%N%\#%R%° ⟰0⟱≈56؟%N%\#%R%° ⟰0≈80؟"
     }
     "alt-ctrl-m°1°a": {
         Comment: "Mark 1 all, up and down order lines"
@@ -94,7 +79,7 @@ Project: "kennings1"
     "alt-ctrl-m°1°b": {
         Comment: "Mark 1 both, down and up order lines"
         InsertName: "Mark 1 both"
-        StringToInsert: "\#%R%° 1⟱≈80؟%N%%ST%\#%R%° ⟰1≈80؟"
+        StringToInsert: "\#%R%° 1⟱≈80؟%N%%ST%%C%pass%N%\#%R%° ⟰1≈80؟"
     }
     "alt-ctrl-m°1°e": {
         Comment: "Mark 1 end, (up arrows)"
@@ -114,7 +99,7 @@ Project: "kennings1"
     "alt-ctrl-m°1°x": {
         Comment: "Mark 1 extended, down, middle, and up lines"
         InsertName: "Mark 1 extended"
-        StringToInsert: "\#%R%° 1⟱≈80؟%N%%ST%\#%R%° ⟰1⟱≈56؟%N%\#%R%° ⟰1≈80؟"
+        StringToInsert: "\#%R%° 1⟱≈80؟%N%%ST%%C%pass%N%\#%R%° ⟰1⟱≈56؟%N%\#%R%° ⟰1≈80؟"
     }
     "alt-ctrl-m°2°a": {
         Comment: "Mark 2 all, up and down order lines"
@@ -124,7 +109,7 @@ Project: "kennings1"
     "alt-ctrl-m°2°b": {
         Comment: "Mark 2 both, down and up order lines"
         InsertName: "Mark 2 both"
-        StringToInsert: "\#%R%° 2⟱≈80؟%N%%ST%\#%R%° ⟰2≈80؟"
+        StringToInsert: "\#%R%° 2⟱≈80؟%N%%ST%%C%pass%N%\#%R%° ⟰2≈80؟"
     }
     "alt-ctrl-m°2°e": {
         Comment: "Mark 2 end (up arrows)"
@@ -144,7 +129,7 @@ Project: "kennings1"
     "alt-ctrl-m°2°x": {
         Comment: "Mark 2 extended, down, middle, and up lines"
         InsertName: "Mark 2 extended"
-        StringToInsert: "\#%R%° 2⟱≈80؟%N%%ST%\#%R%° ⟰2⟱≈56؟%N%\#%R%° ⟰2≈80؟"
+        StringToInsert: "\#%R%° 2⟱≈80؟%N%%ST%%C%pass%N%\#%R%° ⟰2⟱≈56؟%N%\#%R%° ⟰2≈80؟"
     }
     "alt-ctrl-m°3°a": {
         Comment: "Mark 3 all, up and down order lines"
@@ -154,7 +139,7 @@ Project: "kennings1"
     "alt-ctrl-m°3°b": {
         Comment: "Mark 3 both, down and up order lines"
         InsertName: "Mark 3 both"
-        StringToInsert: "\#%R%° 3⟱≈80؟%N%%ST%\#%R%° ⟰3≈80؟"
+        StringToInsert: "\#%R%° 3⟱≈80؟%N%%ST%%C%pass%N%\#%R%° ⟰3≈80؟"
     }
     "alt-ctrl-m°3°e": {
         Comment: "Mark 3 end (up arrows)"
@@ -174,7 +159,7 @@ Project: "kennings1"
     "alt-ctrl-m°3°x": {
         Comment: "Mark 3 extended, down, middle, and up lines"
         InsertName: "Mark 3 extended"
-        StringToInsert: "\#%R%° 3⟱≈80؟%N%%ST%\#%R%° ⟰3⟱≈56؟%N%\#%R%° ⟰3≈80؟"
+        StringToInsert: "\#%R%° 3⟱≈80؟%N%%ST%%C%pass%N%\#%R%° ⟰3⟱≈56؟%N%\#%R%° ⟰3≈80؟"
     }
     "alt-ctrl-m°4°a": {
         Comment: "Mark 4 all, up and down order lines"
@@ -184,7 +169,7 @@ Project: "kennings1"
     "alt-ctrl-m°4°b": {
         Comment: "Mark 4 both, down and up order lines"
         InsertName: "Mark 4 both"
-        StringToInsert: "\#%R%° 4⟱≈80؟%N%%ST%\#%R%° ⟰4≈80؟"
+        StringToInsert: "\#%R%° 4⟱≈80؟%N%%ST%%C%pass%N%\#%R%° ⟰4≈80؟"
     }
     "alt-ctrl-m°4°e": {
         Comment: "Mark 4 end (up arrows)"
@@ -204,7 +189,7 @@ Project: "kennings1"
     "alt-ctrl-m°4°x": {
         Comment: "Mark 4 extended, down, middle, and up lines"
         InsertName: "Mark 4 extended"
-        StringToInsert: "\#%R%° 4⟱≈80؟%N%%ST%\#%R%° ⟰4⟱≈56؟%N%\#%R%° ⟰4≈80؟"
+        StringToInsert: "\#%R%° 4⟱≈80؟%N%%ST%%C%pass%N%\#%R%° ⟰4⟱≈56؟%N%\#%R%° ⟰4≈80؟"
     }
     "alt-ctrl-m°5°a": {
         Comment: "Mark 5 all, up and down order lines"
@@ -214,7 +199,7 @@ Project: "kennings1"
     "alt-ctrl-m°5°b": {
         Comment: "Mark 5 both, down and up order lines"
         InsertName: "Mark 5 both"
-        StringToInsert: "\#%R%° 5⟱≈80؟%N%%ST%\#%R%° ⟰5≈80؟"
+        StringToInsert: "\#%R%° 5⟱≈80؟%N%%ST%%C%pass%N%\#%R%° ⟰5≈80؟"
     }
     "alt-ctrl-m°5°e": {
         Comment: "Mark 5 end (up arrows)"
@@ -234,7 +219,7 @@ Project: "kennings1"
     "alt-ctrl-m°5°x": {
         Comment: "Mark 5 extended, down, middle, and up lines"
         InsertName: "Mark 5 extended"
-        StringToInsert: "\#%R%° 5⟱≈80؟%N%%ST%\#%R%° ⟰5⟱≈56؟%N%\#%R%° ⟰5≈80؟"
+        StringToInsert: "\#%R%° 5⟱≈80؟%N%%ST%%C%pass%N%\#%R%° ⟰5⟱≈56؟%N%\#%R%° ⟰5≈80؟"
     }
     "alt-ctrl-m°6°a": {
         Comment: "Mark 6 all, up and down order lines"
@@ -244,7 +229,7 @@ Project: "kennings1"
     "alt-ctrl-m°6°b": {
         Comment: "Mark 6 both, down and up order lines"
         InsertName: "Mark 6 both"
-        StringToInsert: "\#%R%° 6⟱≈80؟%N%%ST%\#%R%° ⟰6≈80؟"
+        StringToInsert: "\#%R%° 6⟱≈80؟%N%%ST%%C%pass%N%\#%R%° ⟰6≈80؟"
     }
     "alt-ctrl-m°6°e": {
         Comment: "Mark 6 end (up arrows)"
@@ -264,7 +249,7 @@ Project: "kennings1"
     "alt-ctrl-m°6°x": {
         Comment: "Mark 6 extended, down, middle, and up lines"
         InsertName: "Mark 6 extended"
-        StringToInsert: "\#%R%° 6⟱≈80؟%N%%ST%\#%R%° ⟰6⟱≈56؟%N%\#%R%° ⟰6≈80؟"
+        StringToInsert: "\#%R%° 6⟱≈80؟%N%%ST%%C%pass%N%\#%R%° ⟰6⟱≈56؟%N%\#%R%° ⟰6≈80؟"
     }
     "alt-ctrl-m°7°a": {
         Comment: "Mark 7 all, up and down order lines"
@@ -274,7 +259,7 @@ Project: "kennings1"
     "alt-ctrl-m°7°b": {
         Comment: "Mark 7 both, down and up order lines"
         InsertName: "Mark 7 both"
-        StringToInsert: "\#%R%° 7⟱≈80؟%N%%ST%\#%R%° ⟰7≈80؟"
+        StringToInsert: "\#%R%° 7⟱≈80؟%N%%ST%%C%pass%N%\#%R%° ⟰7≈80؟"
     }
     "alt-ctrl-m°7°e": {
         Comment: "Mark 7 end (up arrows)"
@@ -294,7 +279,7 @@ Project: "kennings1"
     "alt-ctrl-m°7°x": {
         Comment: "Mark 7 extended, down, middle, and up lines"
         InsertName: "Mark 7 extended"
-        StringToInsert: "\#%R%° 7⟱≈80؟%N%%ST%\#%R%° ⟰7⟱≈56؟%N%\#%R%° ⟰7≈80؟"
+        StringToInsert: "\#%R%° 7⟱≈80؟%N%%ST%%C%pass%N%\#%R%° ⟰7⟱≈56؟%N%\#%R%° ⟰7≈80؟"
     }
     "alt-ctrl-m°8°a": {
         Comment: "Mark 8 all, up and down order lines"
@@ -304,7 +289,7 @@ Project: "kennings1"
     "alt-ctrl-m°8°b": {
         Comment: "Mark 8 both, down and up order lines"
         InsertName: "Mark 8 both"
-        StringToInsert: "\#%R%° 8⟱≈80؟%N%%ST%\#%R%° ⟰8≈80؟"
+        StringToInsert: "\#%R%° 8⟱≈80؟%N%%ST%%C%pass%N%\#%R%° ⟰8≈80؟"
     }
     "alt-ctrl-m°8°e": {
         Comment: "Mark 8 end (up arrows)"
@@ -324,7 +309,7 @@ Project: "kennings1"
     "alt-ctrl-m°8°x": {
         Comment: "Mark 8 extended, down, middle, and up lines"
         InsertName: "Mark 8 extended"
-        StringToInsert: "\#%R%° 8⟱≈80؟%N%%ST%\#%R%° ⟰8⟱≈56؟%N%\#%R%° ⟰8≈80؟"
+        StringToInsert: "\#%R%° 8⟱≈80؟%N%%ST%%C%pass%N%\#%R%° ⟰8⟱≈56؟%N%\#%R%° ⟰8≈80؟"
     }
     "alt-ctrl-m°9°a": {
         Comment: "Mark 9 all, up and down order lines"
@@ -334,7 +319,7 @@ Project: "kennings1"
     "alt-ctrl-m°9°b": {
         Comment: "Mark 9 both, down and up order lines"
         InsertName: "Mark 9 both"
-        StringToInsert: "\#%R%° 9⟱≈80؟%N%%ST%\#%R%° ⟰9≈80؟"
+        StringToInsert: "\#%R%° 9⟱≈80؟%N%%ST%%C%pass%N%\#%R%° ⟰9≈80؟"
     }
     "alt-ctrl-m°9°e": {
         Comment: "Mark 9 end (up arrows)"
@@ -354,7 +339,17 @@ Project: "kennings1"
     "alt-ctrl-m°9°x": {
         Comment: "Mark 9 extended, down, middle, and up lines"
         InsertName: "Mark 9 extended"
-        StringToInsert: "\#%R%° 9⟱≈80؟%N%%ST%\#%R%° ⟰9⟱≈56؟%N%\#%R%° ⟰9≈80؟"
+        StringToInsert: "\#%R%° 9⟱≈80؟%N%%ST%%C%pass%N%\#%R%° ⟰9⟱≈56؟%N%\#%R%° ⟰9≈80؟"
+    }
+    "alt-ctrl-m°b°c": {
+        Comment: "Block Comment"
+        InsertName: "Python Block Comment"
+        StringToInsert: "\# * %R%°\#*≈150؟%N%\# * %C%%N%\# * %R%°\#*≈150؟%N%%ST%"
+    }
+    "alt-ctrl-m°b°n": {
+        Comment: "Mark block note"
+        InsertName: "Mark Block Note"
+        StringToInsert: "\# *** NOTE *** %R%°%⟱_≈56؟%N%\# * %ST%%C%%N%\# *** NOTE *** %R%°%⟰_≈56؟%N%"
     }
     "alt-ctrl-m°c°b": {
         Comment: "Comment block"
@@ -376,25 +371,45 @@ Project: "kennings1"
         InsertName: "Mark Info Line"
         StringToInsert: "\# *** INFO *** %R%°%⟱_≈56؟"
     }
+    "alt-ctrl-m°n°a": {
+        Comment: "Mark nothing all up, down order."
+        InsertName: "Mark Nothing All"
+        StringToInsert: "\# %R%°⟰_≈56؟%N%%R%°⟱_≈56؟%N%"
+    }
+    "alt-ctrl-m°n°b": {
+        Comment: "Mark nothing both down, up arrows."
+        InsertName: "Mark Nothing Both"
+        StringToInsert: "\# %R%°⟱_≈56؟%N%%C%%N%\# %R%°⟰_≈56؟%N%"
+    }
     "alt-ctrl-m°n°d": {
         Comment: "Mark not diagnostic comment line"
         InsertName: "Not Diagnostic"
         StringToInsert: "\# *** NOT DIAGNOSTIC ***  %R%°%⟱_≈56؟"
     }
     "alt-ctrl-m°n°e": {
-        Comment: "Mark nothing end, up arrows."
-        InsertName: "Mark nothing end"
-        StringToInsert: "\# %R%°⟰_≈56؟"
+        Comment: "Mark nothing end, (up arrows)."
+        InsertName: "Mark Nothing End"
+        StringToInsert: "\# %R%°⟰_≈56؟%N%"
     }
     "alt-ctrl-m°n°m": {
         Comment: "Mark nothing middle, up and down arrows"
         InsertName: "Mark Nothing Middle"
-        StringToInsert: "\# %R%°⟰⟱≈56؟"
+        StringToInsert: "\# %R%°⟰⟱≈56؟%N%"
     }
     "alt-ctrl-m°n°s": {
         Comment: "Mark nothing start, down arrows"
         InsertName: "Mark Not Diagnostic"
-        StringToInsert: "\# %R%°⟱_≈56؟"
+        StringToInsert: "\# %R%°⟱_≈56؟%N%"
+    }
+    "alt-shift-s°p": {
+        Comment: "Shebang python"
+        InsertName: "Shebang Python"
+        StringToInsert: "\#/usr/bin/env /usr/bin/python%N%%N%%N%"
+    }
+    "alt-shift-s°z": {
+        Comment: "Shebang zsh"
+        InsertName: "Shebang Zsh"
+        StringToInsert: "\#/usr/bin/env /usr/bin/zsh%N%%N%%N%"
     }
   }
 
@@ -403,18 +418,16 @@ Project: "kennings1"
   LowerCaseFixedText: "y"
   UpperCaseSelectedText: "n"
   Templates: {
-    "alt-ctrl-c°d°c": {
-        Comment: "Character DBLQT from CF_V"
-        InsertName: "Character Double quote"
-        StringToInsert: "{V.CF_V.DBLQT}"
-    }
-
     "alt-ctrl-c°c°c": {
         Comment: "Character DBLQT from CF_V"
         InsertName: "Character Double quote"
         StringToInsert: "{V.CF_V.DBLQT}"
     }
-
+    "alt-ctrl-c°d°c": {
+        Comment: "Character DBLQT from CF_V"
+        InsertName: "Character Double quote"
+        StringToInsert: "{V.CF_V.DBLQT}"
+    }
     "alt-ctrl-c°n°c": {
         Comment: "Character NEWLINE from CF_V"
         InsertName: "Python else"
@@ -443,7 +456,7 @@ Project: "kennings1"
     "alt-ctrl-d°i°s": {
         Comment: "Define if else"
         InsertName: "Python else"
-        StringToInsert: "{'is': 'else:%N%%T%pass'}"
+        StringToInsert: "else:%N%%T%pass"
     }
     "alt-ctrl-d°n°f": {
         Comment: "Define normal function"
@@ -526,9 +539,9 @@ Project: "kennings1"
         StringToInsert: "_tupToRtn_ = ()%N%"
     }
     "alt-ctrl-p°r°d": {
-        Comment: "Mark nothing start, down arrows"
-        InsertName: "Mark Not Diagnostic"
-        StringToInsert: "\# %R%°⟱_≈56؟"
+        Comment: "Phrase return _dictToRtn_"
+        InsertName: "Return _dictToRtn_"
+        StringToInsert: "return _dictToRtn_%N%"
     }
     "alt-ctrl-p°r°l": {
         Comment: "Phrase return _listToRtn_"
@@ -538,12 +551,12 @@ Project: "kennings1"
     "alt-ctrl-p°r°s": {
         Comment: "Empty _strToRtn_"
         InsertName: "Empty _strToRtn_"
-        StringToInsert: "return _strToRtn_"
+        StringToInsert: "return _strToRtn_%N%"
     }
     "alt-ctrl-p°r°t": {
         Comment: "Empty _tupToRtn_"
         InsertName: "Empty _tupToRtn_"
-        StringToInsert: "return _tupToRtn_"
+        StringToInsert: "return _tupToRtn_%N%"
     }
   }
 
@@ -589,27 +602,24 @@ Project: "kennings1"
         InsertName: "Markdown Bold"
         StringToInsert: "**%ST%**"
     }
-    "alt-ctrl-f°s°o°o": {
-        Comment: "Overstrike only"
-        InsertName: "Markdown Overstrike"
-        StringToInsert: "~~%ST%~~"
-    }
-
-    "alt-ctrl-f°s°o°h": {
-        Comment: "Overstrike and highlight"
-        InsertName: "Markdown Overstrike and Highlight"
-        StringToInsert: "***~~%ST%~~***"
-    }
-
     "alt-ctrl-f°s°h": {
         Comment: "Format selection highlight (bold italics)"
         InsertName: "Markdown Highlight"
         StringToInsert: "***%ST%***"
     }
-
     "alt-ctrl-f°s°i": {
         Comment: "Format selection italics"
         InsertName: "Markdown Italics"
         StringToInsert: "*%ST%*"
+    }
+    "alt-ctrl-f°s°o°h": {
+        Comment: "Overstrike and highlight"
+        InsertName: "Markdown Overstrike and Highlight"
+        StringToInsert: "***~~%ST%~~***"
+    }
+    "alt-ctrl-f°s°o°o": {
+        Comment: "Overstrike only"
+        InsertName: "Markdown Overstrike"
+        StringToInsert: "~~%ST%~~"
     }
   }
