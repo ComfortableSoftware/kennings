@@ -404,12 +404,12 @@ Project: "kennings1"
     "alt-shift-s°p": {
         Comment: "Shebang python"
         InsertName: "Shebang Python"
-        StringToInsert: "\#/usr/bin/env /usr/bin/python%N%%N%%N%"
+        StringToInsert: "\#!/usr/bin/env /usr/bin/python%N%%N%%N%\#"
     }
     "alt-shift-s°z": {
         Comment: "Shebang zsh"
         InsertName: "Shebang Zsh"
-        StringToInsert: "\#/usr/bin/env /usr/bin/zsh%N%%N%%N%"
+        StringToInsert: "\#/!usr/bin/env /usr/bin/zsh%N%%N%%N%\#"
     }
   }
 
@@ -462,6 +462,16 @@ Project: "kennings1"
         Comment: "Define normal function"
         InsertName: "Python function template"
         StringToInsert: "\# * %R%°\#*≈150؟%N%\# * Start of %ST%%N%\# * %R%°\#*≈150؟%N%def %ST%(__PARMS__):%N%%T%\# fold here %R%°⟱1≈150؟%N%%T%%C%pass%N%%T%\# fold here %R%°⟰1≈150؟%N%\# * %R%°\#*≈150؟%N%\# * End of %ST%%N%\# * %R%°\#*≈150؟%N%%N%"
+    }
+    "alt-ctrl-d°o°b": {
+        Comment: "Define options boolean function"
+        InsertName: "Python function template"
+        StringToInsert: "\# * %R%°\#*≈150؟%N%\# * Start of %ST%%N%\# * %R%°\#*≈150؟%N%def %ST%():%N%%T%\# fold here %R%°⟱1≈150؟%N%%T%_choices_ = [%N%%T%%T%%T%%Q%false%Q%,%N%%T%%T%%T%%Q%no%Q%,%N%%T%%T%%T%%Q%true%Q%,%N%%T%%T%%T%%Q%yes%Q%,%N%%T%]%N%%T%_help_ = f%Q%%Q%%Q%%C%%Q%%Q%%Q%%N%%T%return {%N%%T%%T%%T%K_ARGS: [%N%%T%%T%%T%],%N%%T%%T%%T%K_KWARGS: {%N%%T%%T%%T%%T%%T%K_CHOICES: _choices_,%N%%T%%T%%T%%T%%T%K_HELP: _help_,%N%%T%%T%},%N%%T%}%N%%T%\# fold here %R%°⟰1≈150؟%N%\# * %R%°\#*≈150؟%N%\# * End of %ST%%N%\# * %R%°\#*≈150؟%N%%N%"
+    }
+    "alt-ctrl-d°o°f": {
+        Comment: "Define options function"
+        InsertName: "Python function template"
+        StringToInsert: "\# * %R%°\#*≈150؟%N%\# * Start of %ST%%N%\# * %R%°\#*≈150؟%N%def %ST%():%N%%T%\# fold here %R%°⟱1≈150؟%N%%T%_help_ = f%Q%%Q%%Q%%C%%Q%%Q%%Q%%N%%T%return {%N%%T%%T%%T%K_ARGS: [%N%%T%%T%%T%],%N%%T%%T%%T%K_KWARGS: {%N%%T%%T%%T%%T%%T%K_HELP: _help_,%N%%T%%T%},%N%%T%}%N%%T%\# fold here %R%°⟰1≈150؟%N%\# * %R%°\#*≈150؟%N%\# * End of %ST%%N%\# * %R%°\#*≈150؟%N%%N%"
     }
     "alt-ctrl-f°1°b": {
         Comment: "Atom custom folds fold 1 both"
@@ -557,6 +567,11 @@ Project: "kennings1"
         Comment: "Empty _tupToRtn_"
         InsertName: "Empty _tupToRtn_"
         StringToInsert: "return _tupToRtn_%N%"
+    }
+    "alt-ctrl-p°v°s": {
+        Comment: "Empty _TStr_"
+        InsertName: "Empty _TStr_"
+        StringToInsert: "_TStr_ = f%Q%%Q%%Q%%C%%Q%%Q%%Q%"
     }
   }
 

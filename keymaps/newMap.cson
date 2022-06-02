@@ -92,6 +92,8 @@
   'alt-ctrl-d i i': 'kennings:insertIt-alt-ctrl-d°i°i'  # Define if if
   'alt-ctrl-d i s': 'kennings:insertIt-alt-ctrl-d°i°s'  # Define if else
   'alt-ctrl-d n f': 'kennings:insertIt-alt-ctrl-d°n°f'  # Define normal function
+  'alt-ctrl-d o b': 'kennings:insertIt-alt-ctrl-d°o°b'  # Define options boolean function
+  'alt-ctrl-d o f': 'kennings:insertIt-alt-ctrl-d°o°f'  # Define options function
   'alt-ctrl-f 1 b': 'kennings:insertIt-alt-ctrl-f°1°b'  # Atom custom folds fold 1 both
   'alt-ctrl-f 1 e': 'kennings:insertIt-alt-ctrl-f°1°e'  # Atom custom folds fold 1 end
   'alt-ctrl-f 1 s': 'kennings:insertIt-alt-ctrl-f°1°s'  # Atom custom folds fold 1 start
@@ -111,6 +113,7 @@
   'alt-ctrl-p r l': 'kennings:insertIt-alt-ctrl-p°r°l'  # Phrase return _listToRtn_
   'alt-ctrl-p r s': 'kennings:insertIt-alt-ctrl-p°r°s'  # Empty _strToRtn_
   'alt-ctrl-p r t': 'kennings:insertIt-alt-ctrl-p°r°t'  # Empty _tupToRtn_
+  'alt-ctrl-p v s': 'kennings:insertIt-alt-ctrl-p°v°s'  # Empty _TStr_
 
 'atom-text-editor[data-grammar="source shell"]':
   'alt-ctrl-d i e': 'kennings:insertIt-alt-ctrl-d°i°e'  # Define if elif
@@ -119,26 +122,10 @@
   'alt-ctrl-d n f': 'kennings:insertIt-alt-ctrl-d°n°f'  # Define normal function
 
 'atom-text-editor[data-grammar="text md"]':
-  'alt-ctrl-c e': 'kennings:insertIt-alt-ctrl-c°e'  # Communicate E_ ears, small close group
-  'alt-ctrl-c g': 'kennings:insertIt-alt-ctrl-c°g'  # Communicate GEN_ general, appropriate to the situation mix of radio, phone, and local
-  'alt-ctrl-c l': 'kennings:insertIt-alt-ctrl-c°l'  # Communicate LCL_ Local, the room
-  'alt-ctrl-c p o': 'kennings:insertIt-alt-ctrl-c°p°o'  # Communicate PHNO_ phone one sided
-  'alt-ctrl-c p s': 'kennings:insertIt-alt-ctrl-c°p°s'  # Communicate phone speaker PHNS_
-  'alt-ctrl-c r o': 'kennings:insertIt-alt-ctrl-c°r°o'  # Communicate radio one sided RO_
-  'alt-ctrl-c r s': 'kennings:insertIt-alt-ctrl-c°r°s'  # Communicate radio speaker RS_
-  'alt-ctrl-c t e': 'kennings:insertIt-alt-ctrl-c°t°e'  # Communicate E_ ears thought ……, small close group
-  'alt-ctrl-c t g': 'kennings:insertIt-alt-ctrl-c°t°g'  # Communicate GEN_ general, thought pause ……appropriate to the situation mix of radio, phone, and local
-  'alt-ctrl-c t l': 'kennings:insertIt-alt-ctrl-c°t°l'  # Communicate LCL_ thought pause …… Local, the room
-  'alt-ctrl-c t p o': 'kennings:insertIt-alt-ctrl-c°t°p°o'  # Communicate PHNO_ thought pause …… phone one sided
-  'alt-ctrl-c t p s': 'kennings:insertIt-alt-ctrl-c°t°p°s'  # Communicate thought pause …… phone speaker PHNS_
-  'alt-ctrl-c t r o': 'kennings:insertIt-alt-ctrl-c°t°r°o'  # Communicate thought pause …… radio one sided RO_
-  'alt-ctrl-c t r s': 'kennings:insertIt-alt-ctrl-c°t°r°s'  # Communicate thought pause …… radio speaker RS_
-  'alt-ctrl-c t w a': 'kennings:insertIt-alt-ctrl-c°t°w°a'  # Communicate wireless air channel
-  'alt-ctrl-c t w b': 'kennings:insertIt-alt-ctrl-c°t°w°b'  # Communicate wireless Betelgeuse channel
-  'alt-ctrl-c t w s': 'kennings:insertIt-alt-ctrl-c°t°w°s'  # Communicate wireless statewide channel
-  'alt-ctrl-c w a': 'kennings:insertIt-alt-ctrl-c°w°a'  # Communicate wireless air channel
-  'alt-ctrl-c w b': 'kennings:insertIt-alt-ctrl-c°w°b'  # Communicate wireless Betelgeuse channel
-  'alt-ctrl-c w s': 'kennings:insertIt-alt-ctrl-c°w°s'  # Communicate wireless statewide channel
+  'alt-ctrl-c c g': 'kennings:insertIt-alt-ctrl-c°c°g'  # Communicate character general
+  'alt-ctrl-c c h': 'kennings:insertIt-alt-ctrl-c°c°h'  # Communicate character general half convo
+  'alt-ctrl-c w g': 'kennings:insertIt-alt-ctrl-c°w°g'  # Communicate Walkon general
+  'alt-ctrl-c w h': 'kennings:insertIt-alt-ctrl-c°w°h'  # Communicate Walkon general half convo
   'alt-ctrl-c z p': 'kennings:insertIt-alt-ctrl-c°z°p'  # Communicate pause
   'alt-ctrl-c z t': 'kennings:insertIt-alt-ctrl-c°z°t'  # Communicate time jump
   'alt-ctrl-f r 0': 'kennings:insertIt-alt-ctrl-f°r°0'  # File reference link in this file
@@ -150,10 +137,10 @@
   'alt-ctrl-f r g g': 'kennings:insertIt-alt-ctrl-f°r°g°g'  # File reference link in GLOSSARY.md
   'alt-ctrl-f r g t': 'kennings:insertIt-alt-ctrl-f°r°g°t'  # File reference link in TRANSPORTATIONGLOSSARY.md
   'alt-ctrl-f r m l': 'kennings:insertIt-alt-ctrl-f°r°m°l'  # File reference link in HOWIMETLIAM.md
+  'alt-ctrl-f r w': 'kennings:insertIt-alt-ctrl-f°r°w'  # File reference link in WALKONCHARACTERS.md
   'alt-ctrl-f s b': 'kennings:insertIt-alt-ctrl-f°s°b'  # Bold
   'alt-ctrl-f s h': 'kennings:insertIt-alt-ctrl-f°s°h'  # Format selection highlight (bold italics)
   'alt-ctrl-f s i': 'kennings:insertIt-alt-ctrl-f°s°i'  # Format selection italics
   'alt-ctrl-f s o h': 'kennings:insertIt-alt-ctrl-f°s°o°h'  # Overstrike and highlight
-  'alt-ctrl-f s o h': 'kennings:insertIt-alt-ctrl-f°s°o°h'  # Overstrike and bold+italics
   'alt-ctrl-f s o o': 'kennings:insertIt-alt-ctrl-f°s°o°o'  # Overstrike only
 
