@@ -82,6 +82,26 @@
   'alt-shift-s p': 'kennings:insertIt-alt-shift-s°p'  # Shebang python
   'alt-shift-s z': 'kennings:insertIt-alt-shift-s°z'  # Shebang zsh
 
+'atom-text-editor[data-grammar="source arduino"]':
+  'alt-ctrl-d c c': 'kennings:insertIt-alt-ctrl-d°c°c'  # Define class class
+  'alt-ctrl-d c f': 'kennings:insertIt-alt-ctrl-d°c°f'  # Define class function
+  'alt-ctrl-d i e': 'kennings:insertIt-alt-ctrl-d°i°e'  # Define if elif
+  'alt-ctrl-d i i': 'kennings:insertIt-alt-ctrl-d°i°i'  # Define if if
+  'alt-ctrl-d i s': 'kennings:insertIt-alt-ctrl-d°i°s'  # Define if else
+  'alt-ctrl-d n f': 'kennings:insertIt-alt-ctrl-d°n°f'  # Define normal function
+  'alt-ctrl-m b c': 'kennings:insertIt-alt-ctrl-m°b°c'  # Block Comment
+  'alt-ctrl-m b n': 'kennings:insertIt-alt-ctrl-m°b°n'  # Mark block note
+  'alt-ctrl-m c b': 'kennings:insertIt-alt-ctrl-m°c°b'  # Comment block
+  'alt-ctrl-m c c': 'kennings:insertIt-alt-ctrl-m°c°c'  # Generic comment starter
+  'alt-ctrl-m c t': 'kennings:insertIt-alt-ctrl-m°c°t'  # Comment block, tall edition
+  'alt-ctrl-m i l': 'kennings:insertIt-alt-ctrl-m°i°l'  # Mark info line
+  'alt-ctrl-m n a': 'kennings:insertIt-alt-ctrl-m°n°a'  # Mark nothing all up, down order.
+  'alt-ctrl-m n b': 'kennings:insertIt-alt-ctrl-m°n°b'  # Mark nothing both down, up arrows.
+  'alt-ctrl-m n d': 'kennings:insertIt-alt-ctrl-m°n°d'  # Mark not diagnostic comment line
+  'alt-ctrl-m n e': 'kennings:insertIt-alt-ctrl-m°n°e'  # Mark nothing end, (up arrows).
+  'alt-ctrl-m n m': 'kennings:insertIt-alt-ctrl-m°n°m'  # Mark nothing middle, up and down arrows
+  'alt-ctrl-m n s': 'kennings:insertIt-alt-ctrl-m°n°s'  # Mark nothing start, down arrows
+
 'atom-text-editor[data-grammar="source python"]':
   'alt-ctrl-c c c': 'kennings:insertIt-alt-ctrl-c°c°c'  # Character DBLQT from CF_V
   'alt-ctrl-c d c': 'kennings:insertIt-alt-ctrl-c°d°c'  # Character DBLQT from CF_V
@@ -109,10 +129,12 @@
   'alt-ctrl-p e q': 'kennings:insertIt-alt-ctrl-p°e°q'  # Phrase empty f-quotes
   'alt-ctrl-p e s': 'kennings:insertIt-alt-ctrl-p°e°s'  # Phrase empty _strToRtn_
   'alt-ctrl-p e t': 'kennings:insertIt-alt-ctrl-p°e°t'  # Empty _tupToRtn_
+  'alt-ctrl-p p s': 'kennings:insertIt-alt-ctrl-p°p°s'  # Phrase _strToRtn_ += FTQ
   'alt-ctrl-p r d': 'kennings:insertIt-alt-ctrl-p°r°d'  # Phrase return _dictToRtn_
   'alt-ctrl-p r l': 'kennings:insertIt-alt-ctrl-p°r°l'  # Phrase return _listToRtn_
   'alt-ctrl-p r s': 'kennings:insertIt-alt-ctrl-p°r°s'  # Empty _strToRtn_
   'alt-ctrl-p r t': 'kennings:insertIt-alt-ctrl-p°r°t'  # Empty _tupToRtn_
+  'alt-ctrl-p v e': 'kennings:insertIt-alt-ctrl-p°v°e'  # Throw error template
   'alt-ctrl-p v s': 'kennings:insertIt-alt-ctrl-p°v°s'  # Empty _TStr_
 
 'atom-text-editor[data-grammar="source shell"]':
@@ -122,12 +144,17 @@
   'alt-ctrl-d n f': 'kennings:insertIt-alt-ctrl-d°n°f'  # Define normal function
 
 'atom-text-editor[data-grammar="text md"]':
+  'alt-ctrl-c a': 'kennings:insertIt-alt-ctrl-c°a'  # Communicate Air general
   'alt-ctrl-c c g': 'kennings:insertIt-alt-ctrl-c°c°g'  # Communicate character general
   'alt-ctrl-c c h': 'kennings:insertIt-alt-ctrl-c°c°h'  # Communicate character general half convo
-  'alt-ctrl-c w g': 'kennings:insertIt-alt-ctrl-c°w°g'  # Communicate Walkon general
-  'alt-ctrl-c w h': 'kennings:insertIt-alt-ctrl-c°w°h'  # Communicate Walkon general half convo
-  'alt-ctrl-c z p': 'kennings:insertIt-alt-ctrl-c°z°p'  # Communicate pause
-  'alt-ctrl-c z t': 'kennings:insertIt-alt-ctrl-c°z°t'  # Communicate time jump
+  'alt-ctrl-c p': 'kennings:insertIt-alt-ctrl-c°p'  # Communicate pause
+  'alt-ctrl-c t c g': 'kennings:insertIt-alt-ctrl-c°t°c°g'  # Communicate character general
+  'alt-ctrl-c t c h': 'kennings:insertIt-alt-ctrl-c°t°c°h'  # Communicate character general half convo
+  'alt-ctrl-c t w g': 'kennings:insertIt-alt-ctrl-c°t°w°g'  # Communicate Walkon general
+  'alt-ctrl-c t w h': 'kennings:insertIt-alt-ctrl-c°t°w°h'  # Communicate Walkon general half convo
+  'alt-ctrl-c w g': 'kennings:insertIt-alt-ctrl-c°w°g'  # Communicate walkon character general
+  'alt-ctrl-c w h': 'kennings:insertIt-alt-ctrl-c°w°h'  # Communicate walkon character general half convo
+  'alt-ctrl-c z': 'kennings:insertIt-alt-ctrl-c°z'  # Communicate time jump
   'alt-ctrl-f r 0': 'kennings:insertIt-alt-ctrl-f°r°0'  # File reference link in this file
   'alt-ctrl-f r c a': 'kennings:insertIt-alt-ctrl-f°r°c°a'  # File reference link in CALENDAR.md
   'alt-ctrl-f r c h': 'kennings:insertIt-alt-ctrl-f°r°c°h'  # File reference link in CHARACTERS.md

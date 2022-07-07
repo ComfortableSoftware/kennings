@@ -8,6 +8,8 @@ PATH = require "path"
 module.exports =
   initialize: (state) ->
     ## start of section to replace from 'init.coffee'
+    atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-c°a", =>
+      @insertIt("alt-ctrl-c°a")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-c°c°a", =>
       @insertIt("alt-ctrl-c°c°a")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-c°c°c", =>
@@ -30,16 +32,24 @@ module.exports =
       @insertIt("alt-ctrl-c°n°c")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-c°n°l", =>
       @insertIt("alt-ctrl-c°n°l")
+    atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-c°p", =>
+      @insertIt("alt-ctrl-c°p")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-c°q°d", =>
       @insertIt("alt-ctrl-c°q°d")
+    atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-c°t°c°g", =>
+      @insertIt("alt-ctrl-c°t°c°g")
+    atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-c°t°c°h", =>
+      @insertIt("alt-ctrl-c°t°c°h")
+    atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-c°t°w°g", =>
+      @insertIt("alt-ctrl-c°t°w°g")
+    atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-c°t°w°h", =>
+      @insertIt("alt-ctrl-c°t°w°h")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-c°w°g", =>
       @insertIt("alt-ctrl-c°w°g")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-c°w°h", =>
       @insertIt("alt-ctrl-c°w°h")
-    atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-c°z°p", =>
-      @insertIt("alt-ctrl-c°z°p")
-    atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-c°z°t", =>
-      @insertIt("alt-ctrl-c°z°t")
+    atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-c°z", =>
+      @insertIt("alt-ctrl-c°z")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-d°c°c", =>
       @insertIt("alt-ctrl-d°c°c")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-d°c°f", =>
@@ -260,6 +270,8 @@ module.exports =
       @insertIt("alt-ctrl-p°e°s")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-p°e°t", =>
       @insertIt("alt-ctrl-p°e°t")
+    atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-p°p°s", =>
+      @insertIt("alt-ctrl-p°p°s")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-p°r°d", =>
       @insertIt("alt-ctrl-p°r°d")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-p°r°l", =>
@@ -268,6 +280,8 @@ module.exports =
       @insertIt("alt-ctrl-p°r°s")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-p°r°t", =>
       @insertIt("alt-ctrl-p°r°t")
+    atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-p°v°e", =>
+      @insertIt("alt-ctrl-p°v°e")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-p°v°s", =>
       @insertIt("alt-ctrl-p°v°s")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-shift-s°p", =>
