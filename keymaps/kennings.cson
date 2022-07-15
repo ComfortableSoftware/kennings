@@ -130,6 +130,7 @@
   'alt-ctrl-p e s': 'kennings:insertIt-alt-ctrl-p°e°s'  # Phrase empty _strToRtn_
   'alt-ctrl-p e t': 'kennings:insertIt-alt-ctrl-p°e°t'  # Empty _tupToRtn_
   'alt-ctrl-p p s': 'kennings:insertIt-alt-ctrl-p°p°s'  # Phrase _strToRtn_ += FTQ
+  'alt-ctrl-p q s': 'kennings:insertIt-alt-ctrl-p°q°s'  # Phrase equals empty fquotes
   'alt-ctrl-p r d': 'kennings:insertIt-alt-ctrl-p°r°d'  # Phrase return _dictToRtn_
   'alt-ctrl-p r l': 'kennings:insertIt-alt-ctrl-p°r°l'  # Phrase return _listToRtn_
   'alt-ctrl-p r s': 'kennings:insertIt-alt-ctrl-p°r°s'  # Empty _strToRtn_

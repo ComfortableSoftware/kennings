@@ -650,6 +650,11 @@ Project: "kennings1"
         InsertName: "Empty _strToRtn_ += FTQ"
         StringToInsert: "_strToRtn_ += f%Q%%Q%%Q%%C%%Q%%Q%%Q%%N%"
     }
+    "alt-ctrl-p°q°s": {
+        Comment: "Phrase equals empty fquotes"
+        InsertName: "Equals Fquotes"
+        StringToInsert: " = %Q%%Q%%Q%%ST%%C%%Q%%Q%%Q%"
+    }
     "alt-ctrl-p°r°d": {
         Comment: "Phrase return _dictToRtn_"
         InsertName: "Return _dictToRtn_"

@@ -262,6 +262,8 @@
       @insertIt("alt-ctrl-p°e°t")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-p°p°s", =>
       @insertIt("alt-ctrl-p°p°s")
+    atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-p°q°s", =>
+      @insertIt("alt-ctrl-p°q°s")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-p°r°d", =>
       @insertIt("alt-ctrl-p°r°d")
     atom.commands.add "atom-workspace", "kennings:insertIt-alt-ctrl-p°r°l", =>
